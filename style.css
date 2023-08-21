@@ -5,6 +5,9 @@
   text-decoration: none;
   font-family: "Lato", sans-serif;
 }
+.html,body{
+    height: 100%;
+}
 .sign_btn {
   background-color: #0797de;
   width: 124px;
@@ -63,4 +66,40 @@
 .banner {
   background-color: #f6f6f6;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.sec1_content_head {
+  font-size: 45px;
+  font-weight: 900;
+  color: #0797de;
+}
+.sec1_content_text{
+    margin: 20px 0;
+}
+.start_btn {
+  width: 189px;
+  height: 48px;
+  background-color: #0797de;
+  border: unset;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.section1 {
+  width: 80%;
+  height: 80%;
+  display: flex;
+}
+.sec1_content,
+.sec1_img {
+  width: 50%;
+}
+.sec1_img {
+  text-align: end;
+}
+.hero_img {
+  width: 80%;
 }
