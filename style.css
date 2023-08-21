@@ -20,7 +20,8 @@
   justify-content: center;
   height: 80px;
   align-items: center;
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
 }
 .menu_wrapper {
