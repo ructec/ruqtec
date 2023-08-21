@@ -3,7 +3,7 @@
   padding: 0;
   list-style-type: none;
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .sign_btn {
   background-color: #0797de;
@@ -56,4 +56,8 @@
   padding-left: 10px;
   color: #0797de;
   font-weight: 700;
+}
+.banner {
+  background-color: #f6f6f6;
+  height: 500px;
 }
