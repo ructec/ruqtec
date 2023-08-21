@@ -5,8 +5,9 @@
   text-decoration: none;
   font-family: "Lato", sans-serif;
 }
-.html,body{
-    height: 100%;
+.html,
+body {
+  height: 100%;
 }
 .sign_btn {
   background-color: #0797de;
@@ -65,7 +66,7 @@
 }
 .banner {
   background-color: #f6f6f6;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,8 +77,8 @@
   font-weight: 900;
   color: #0797de;
 }
-.sec1_content_text{
-    margin: 20px 0;
+.sec1_content_text {
+  margin: 20px 0;
 }
 .start_btn {
   width: 189px;
@@ -102,4 +103,63 @@
 }
 .hero_img {
   width: 80%;
+}
+.section2_head_text {
+  font-size: 40px;
+  font-weight: 700;
+}
+.apply_btn {
+  width: 311px;
+  height: 48px;
+  background-color: #0797de;
+  cursor: pointer;
+  border: unset;
+  border-radius: 8px;
+  margin: 30px 0 20px 0;
+}
+.section2_content_1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  width: 340px;
+  text-align: center;
+}
+.section2_content_2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f6f6f6;
+}
+.section2 {
+  background-image: url(./Images/coding.jpg);
+  height: 360px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section2_cover {
+  background-color: #153e52;
+  height: 100%;
+  opacity: 0.97;
+}
+.section2_head_wrapper {
+  height: 60px;
+  display: flex;
+  align-items: end;
+}
+.section2_head {
+  background-color: #fff;
+  text-align: center;
+  color: #056594;
+  width: 100%;
+}
+.section2_content_wrapper {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  align-items: center;
+}
+.section2_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
