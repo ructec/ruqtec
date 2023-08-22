@@ -4,6 +4,7 @@
   list-style-type: none;
   text-decoration: none;
   font-family: "Lato", sans-serif;
+  box-sizing: border-box;
 }
 .html,
 body {
@@ -247,9 +248,53 @@ body {
 .each_logo {
   margin-right: 5px;
 }
-.logos_container {
-  /* margin: 0 7px; */
+.sub_btn {
+  color: #222222;
+  width: 124px;
+  height: 40px;
+  background-color: #0797de;
+  border: unset;
+  border-radius: 0px 8px 8px 0px;
+  font-weight: 400;
+  cursor: pointer;
 }
 .each_logo {
   border-radius: 50%;
+}
+.email_input {
+  width: 635px;
+  height: 40px;
+  border-radius: 8px 0px 0px 8px;
+  border: 1px solid #044c6f;
+  outline: unset;
+  padding: 3px;
+  border-right: unset;
+}
+.email_input::placeholder {
+  color: #9a9998;
+}
+.newsletter_section_text {
+  color: #056594;
+  font-size: 24px;
+  width: 650px;
+}
+.newsletter_section_wrapper {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.newsletter_section {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.subscribe_cont {
+  display: flex;
+  height: 40px;
+}
+.newsletter_section_cont {
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
