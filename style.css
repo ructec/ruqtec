@@ -51,16 +51,6 @@ body {
 .unlist a:focus {
   color: #044c6f;
 }
-.select,
-.footer_select {
-  border: unset;
-  width: 75px;
-  outline: unset;
-  color: #067eb9;
-}
-.select:focus {
-  color: #044c6f;
-}
 .logo_container,
 .logos_container {
   display: flex;
@@ -327,8 +317,11 @@ footer a {
   font-weight: 700;
 }
 .footer_select {
-  background-color: unset;
-  color: #f6f6f6 !important;
+  background-color: #0797de;
+  color: #f6f6f6;
+}
+.footer_icon {
+  color: #f6f6f6;
 }
 .logo_info {
   height: 85%;
@@ -393,10 +386,6 @@ footer a {
 .main_lk {
   margin-right: 10px;
 }
-.main_lk2:focus,
-.caret_icon:focus {
-  color: #9a9998;
-}
 .main_lk2 {
   display: flex;
   align-items: center;
@@ -404,4 +393,8 @@ footer a {
 }
 .unlist2 li {
   transition: 1s;
+}
+.footer_list {
+  background-color: #0797de;
+  color: #f6f6f6;
 }

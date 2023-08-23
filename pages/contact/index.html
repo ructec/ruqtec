@@ -30,23 +30,18 @@
 
         <ul class="unlist">
           <li><a href="../../index.html">Home</a></li>
-          <li>
-            <select class="select">
-              <option value="">
-                <a href="../courses/">Courses</a>
-              </option>
-              <option value="">
-                <a href="../frontend_dev/"
-                  >Frontend Development</a
-                >
-              </option>
-              <option value="">
-                <a href="../backend_dev/"
-                  >Backend Development</a
-                >
-              </option>
-              <option value="">Product Design</option>
-            </select>
+           <li class="course_list">
+            <a href="../courses/" class="main_lk">Courses</a
+            ><i class="fa-solid fa-caret-down caret_icon"></i>
+            <ul class="unlist2">
+              <li class="main_lk2">
+                <a href="../courses/">Courses</a
+                ><i class="fa-solid fa-caret-up caret_icon"></i>
+              </li>
+              <li><a href="../frontend_dev/">Frontend Development</a></li>
+              <li><a href="../backend_dev/">Backend Development</a></li>
+              <li><a href="#">Product Design</a></li>
+            </ul>
           </li>
           <li><a href="../about/">About</a></li>
           <li><a href="../contact/">Contact</a></li>
@@ -101,23 +96,20 @@
             </div>
           </div>
           <ul class="unlist">
-            <li>
-              <select class="footer_select">
-                <option value="">
-                  <a href="../courses/">Courses</a>
-                </option>
-                <option value="">
-                  <a href="../frontend_dev/"
-                    >Frontend Development</a
-                  >
-                </option>
-                <option value="">
-                  <a href="../backend_dev/"
-                    >Backend Development</a
-                  >
-                </option>
-                <option value="">Product Design</option>
-              </select>
+            <li class="course_list footer_select">
+              <a href="../courses/" class="main_lk">Courses</a
+              ><i class="fa-solid fa-caret-down caret_icon footer_icon"></i>
+              <ul class="unlist2 footer_list">
+                <li class="main_lk2">
+                  <a href="../courses/">Courses</a
+                  ><i class="fa-solid fa-caret-up caret_icon footer_icon"></i>
+                </li>
+                <li>
+                  <a href="../frontend_dev/">Frontend Development</a>
+                </li>
+                <li><a href="../backend_dev/">Backend Development</a></li>
+                <li><a href="#">Product Design</a></li>
+              </ul>
             </li>
             <li><a href="../about/">About</a></li>
             <li><a href="../contact/">Contact</a></li>
