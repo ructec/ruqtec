@@ -43,6 +43,10 @@ body {
 }
 .unlist a {
   color: #067eb9;
+  width: 100%;
+}
+.caret_icon {
+  color: #067eb9;
 }
 .unlist a:focus {
   color: #044c6f;
@@ -359,4 +363,45 @@ footer a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.course_list {
+  position: relative;
+}
+.unlist2 {
+  display: none;
+  width: 200px;
+  left: -53px;
+  position: absolute;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+}
+.unlist2 li {
+  padding: 10px;
+}
+.unlist2 li:hover {
+  background-color: #067eb9;
+}
+.unlist2 li:hover a {
+  color: #fff;
+}
+.unlist2 li:hover .caret_icon {
+  color: #fff;
+}
+.course_list:hover .unlist2 {
+  display: block;
+}
+.main_lk {
+  margin-right: 10px;
+}
+.main_lk2:focus,
+.caret_icon:focus {
+  color: #9a9998;
+}
+.main_lk2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.unlist2 li {
+  transition: 1s;
 }
