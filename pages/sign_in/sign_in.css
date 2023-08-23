@@ -44,6 +44,7 @@ input {
 }
 .form_sign_btn {
   width: 100%;
+  color: #222222;
 }
 .pwd_text_cont {
   text-align: end;
