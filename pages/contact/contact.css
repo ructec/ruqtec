@@ -5,6 +5,31 @@
   justify-content: center;
   align-items: center;
 }
-.contact_text{
-    font-size: 48px;
+.contact_text {
+  font-size: 48px;
+  color: #067eb9;
+  font-weight: 900;
+}
+.contact_wrapper {
+  width: 80%;
+  background-color: #fff;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  margin-bottom: 50px;
+}
+.contact_cont {
+  width: 90%;
+}
+.contact_icon {
+  font-size: 40px;
+  color: #676665;
+}
+.contact_media {
+  display: flex;
+  justify-content: space-between;
+  width: 465px;
+  margin-top: 30px;
 }
