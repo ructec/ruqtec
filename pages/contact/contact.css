@@ -1,0 +1,10 @@
+.contact_body {
+  height: 500px;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_text{
+    font-size: 48px;
+}
