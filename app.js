@@ -38,7 +38,6 @@ for (let i = 0; i < accIcon2.length; i++) {
       eachBody2.classList.toggle("show2");
       eachIcon2.classList.remove("fa-plus");
       eachIcon2.classList.add("fa-xmark");
-      // eachIcon2.classList.toggle("rotate");
       isOpen = true;
     }
   });
