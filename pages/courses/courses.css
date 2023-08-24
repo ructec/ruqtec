@@ -1,0 +1,100 @@
+.courses_body {
+  height: 900px;
+  background-color: #f6f6f6;
+}
+.course_head_cont {
+  height: 202px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course_head {
+  color: #067eb9;
+  font-size: 48px;
+  font-weight: 900;
+}
+.course1 {
+  width: 40%;
+  height: 550px;
+  background-color: #fff;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+}
+.course_title {
+  font-size: 29px;
+  color: #151414;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.course_desc {
+  font-size: 18px;
+  color: #565554;
+  margin: 20px 0;
+}
+.course_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 55px;
+}
+.courses_container {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+}
+.course_wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.course1_wrapper {
+  width: 90%;
+  padding: 20px 0;
+}
+.course_img {
+  height: 40%;
+  width: 100%;
+}
+.course_price_cont {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.real_price {
+  font-size: 24px;
+}
+.course_duration {
+  font-size: 24px;
+}
+.enrol_btn_cont {
+  margin-top: 20px;
+}
+.enrol_btn {
+  width: 295px;
+  height: 40px;
+  border-radius: 8px;
+  border: unset;
+  color: #222222;
+  cursor: pointer;
+}
+.course_overall_wrapper {
+  height: 77.5%;
+  display: flex;
+  align-items: center;
+}
+.course_head_overall {
+  height: 150px;
+  display: flex;
+  align-items: flex-end;
+}
+.course_head_cont {
+  height: 80%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
