@@ -7,9 +7,9 @@
   align-items: center;
 }
 .about_body_cont {
-    width: 80%;
-    display: flex;
-    align-items: center;
+  width: 80%;
+  /* display: flex;
+    align-items: center; */
 }
 .acc1_head {
   background-color: #fff;
@@ -33,21 +33,20 @@
   font-size: 24px;
   color: #067eb9;
 }
-.acc1_body{
-    margin: 20px 0;
-    height: 0;
-    overflow: hidden;
+.acc1_body {
+  margin: 20px 0;
+  height: 0;
+  overflow: hidden;
 }
-.show{
-    display: block;
-    height: 238px;
-    transition: .3s;
+.show {
+  /* display: block; */
+  height: 238px;
+  transition: 0.3s;
 }
-.acc_icon{
-    cursor: pointer;
+.acc_icon {
+  cursor: pointer;
 }
-.rotate{
-    transform: rotateX(-180deg);
-    transition: .3s;
+.rotate {
+  transform: rotateX(-180deg);
+  transition: 0.3s;
 }
-
