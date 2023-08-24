@@ -65,9 +65,11 @@
 }
 .real_price {
   font-size: 24px;
+  color: #343333;
 }
 .course_duration {
   font-size: 24px;
+  color: #343333;
 }
 .enrol_btn_cont {
   margin-top: 20px;
@@ -97,4 +99,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+.course_price {
+  color: #343333;
 }
