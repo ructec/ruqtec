@@ -370,7 +370,7 @@ footer a {
 }
 .unlist2 li {
   padding: 10px;
-    transition: 1s;
+  transition: 1s;
 }
 .unlist2 li:hover {
   background-color: #067eb9;
@@ -386,11 +386,6 @@ footer a {
 }
 .main_lk {
   margin-right: 10px;
-}
-.main_lk2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .footer_list {
   background-color: #0797de;

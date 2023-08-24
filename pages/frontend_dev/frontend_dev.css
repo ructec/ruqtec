@@ -1,0 +1,67 @@
+.front_body {
+  width: 90%;
+}
+.front_body_wrapper {
+  /* width: 80%; */
+}
+.course1 {
+  width: 100%;
+  margin-top: 50px;
+  height: 700px;
+}
+.course_img {
+  height: 60%;
+}
+.course1_wrapper {
+  width: 97%;
+}
+.courses_body {
+  height: 3000px;
+  display: flex;
+  justify-content: center;
+}
+.enrol_btn {
+  background-color: #0797de;
+  width: 50%;
+  font-size: 16px;
+}
+.enrol_btn_cont {
+  display: flex;
+  justify-content: center;
+}
+.cont1 {
+  width: 48%;
+  height: 140px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cont1_cont {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.part1 {
+  width: 45%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.line {
+  width: 5px;
+  height: 80%;
+  background-color: #222;
+  border-radius: 5px;
+}
+.part2 {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
