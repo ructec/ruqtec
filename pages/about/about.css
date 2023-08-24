@@ -1,6 +1,6 @@
 .about_body {
   background-color: #f6f6f6;
-  min-height: 700px;
+  min-height: 500px;
   max-height: 1200px;
   display: flex;
   justify-content: center;
@@ -8,8 +8,7 @@
 }
 .about_body_cont {
   width: 80%;
-  /* display: flex;
-    align-items: center; */
+  margin: 40px 0;
 }
 .acc1_head {
   background-color: #fff;
