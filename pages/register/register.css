@@ -1,0 +1,91 @@
+.register_cont {
+  background-color: #f6f6f6;
+}
+.reg_head {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.reg_text {
+  color: #067eb9;
+  font-weight: 900;
+  font-size: 40px;
+}
+.reg_form_cont {
+  background-color: #30a8e3;
+  width: 80%;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  height: 88%;
+  align-items: center;
+}
+label {
+  color: #f6f6f6;
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+}
+::placeholder {
+  color: #9a9998;
+  font-size: 16px;
+}
+.each_input {
+  height: 35px;
+  width: 100%;
+  background-color: #fff;
+  padding: 5px 20px;
+  border: unset;
+  outline: unset;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.submit_btn {
+  background-color: #0797de;
+  border-radius: 8px;
+  height: 45px;
+  width: 100%;
+  color: #222222;
+  cursor: pointer;
+  border: unset;
+}
+.reg_form {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.reg_head_cont {
+  display: flex;
+  align-items: flex-end;
+  height: 120px;
+}
+.reg_body {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input_cont {
+  margin: 20px 0;
+}
+.form_select {
+  width: 100%;
+  height: 35px;
+  border-radius: 4px;
+  outline: unset;
+  padding: 5px 20px;
+  font-size: 16px;
+}
+textarea {
+  width: 100%;
+  height: 129px;
+  outline: unset;
+  padding: 5px 20px;
+}
+.form_wrapper {
+  width: 100%;
+}
