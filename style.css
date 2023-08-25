@@ -129,7 +129,7 @@ body {
 .apply_btn {
   width: 311px;
   height: 48px;
-  background-color: #0797de;
+  background-color: #0babfa;
   cursor: pointer;
   border: unset;
   border-radius: 8px;
@@ -164,7 +164,7 @@ body {
 .section2_cover {
   background-color: #153e52;
   height: 100%;
-  opacity: 0.97;
+  opacity: 0.92;
 }
 .section2_head_wrapper {
   height: 60px;
@@ -431,6 +431,7 @@ footer a {
 .footer_list {
   background-color: #f6f6f6;
   box-shadow: 0px 16px 16px 0px #0000000a;
+  left: -80px;
 }
 .footer_list a {
   color: #0797de !important;
