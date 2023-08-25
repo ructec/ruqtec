@@ -3,8 +3,6 @@ const accBody = document.querySelectorAll(".acc1_body");
 const accIcon2 = document.querySelectorAll(".acc_icon2");
 const accBody2 = document.querySelectorAll(".acc2_body_text");
 
-console.log(accIcon2);
-
 for (let i = 0; i < accIcon.length; i++) {
   const eachIcon = accIcon[i];
   const eachBody = accBody[i];
@@ -28,7 +26,6 @@ for (let i = 0; i < accIcon2.length; i++) {
   const eachBody2 = accBody2[i];
   let isOpen;
   eachIcon2.addEventListener("click", () => {
-    console.log("pp");
     if (isOpen == true) {
       eachBody2.classList.toggle("show2");
       eachIcon2.classList.remove("fa-xmark");
