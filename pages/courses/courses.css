@@ -83,9 +83,11 @@
   color: #222222;
   cursor: pointer;
   font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #222222;
 }
 .enrol_btn:hover {
-  border-bottom: 1px solid #222222;
+  border-bottom: 2px solid #222222;
 }
 .course_overall_wrapper {
   height: 77.5%;
