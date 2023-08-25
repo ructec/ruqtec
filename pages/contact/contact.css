@@ -27,6 +27,10 @@
   font-size: 40px;
   color: #676665;
 }
+.contact_icon:hover {
+  transition: 1s;
+  transform: rotateY(360deg);
+}
 .contact_media {
   display: flex;
   justify-content: space-between;

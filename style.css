@@ -18,6 +18,13 @@ body {
   border: unset;
   color: #222222;
   cursor: pointer;
+  font-size: 16px;
+}
+.sign_btn:hover {
+  border-bottom: 1px solid #222222;
+}
+.sign_btn:focus {
+  color: #fff;
 }
 .menu_container {
   background-color: #fff;
@@ -29,6 +36,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 100;
+  box-shadow: 0px 8px 16px 2px #7a787814;
 }
 .menu_wrapper {
   display: flex;
@@ -47,6 +55,9 @@ body {
 }
 .caret_icon {
   color: #067eb9;
+}
+.unlist a:hover {
+  color: #044c6f;
 }
 .unlist a:focus {
   color: #044c6f;
@@ -85,7 +96,15 @@ body {
   border: unset;
   border-radius: 8px;
   font-weight: 400;
+  font-size: 16px;
+  color: #222222;
   cursor: pointer;
+}
+.start_btn:hover {
+  border-bottom: 1px solid #222222;
+}
+.start_btn:focus {
+  color: #fff;
 }
 .section1 {
   width: 80%;
@@ -115,6 +134,13 @@ body {
   border: unset;
   border-radius: 8px;
   margin: 30px 0 20px 0;
+  font-size: 16px;
+}
+.apply_btn:hover {
+  border-bottom: 1px solid #222222;
+}
+.apply_btn:focus {
+  color: #fff;
 }
 .section2_content_1 {
   font-size: 40px;
@@ -188,6 +214,7 @@ body {
   justify-content: center;
   height: 380px;
   border-radius: 16px;
+  box-shadow: 0px 16px 16px 0px #0000000a;
 }
 .test_img {
   position: absolute;
@@ -253,6 +280,13 @@ body {
   border-radius: 0px 8px 8px 0px;
   font-weight: 400;
   cursor: pointer;
+  font-size: 16px;
+}
+.sub_btn:hover {
+  border-bottom: 1px solid #222222;
+}
+.sub_btn:focus {
+  color: #fff;
 }
 .email_input {
   width: 635px;
@@ -262,9 +296,11 @@ body {
   outline: unset;
   padding: 3px;
   border-right: unset;
+  font-size: 16px;
 }
 .email_input::placeholder {
   color: #9a9998;
+  font-size: 16px;
 }
 .newsletter_section_text {
   color: #056594;
@@ -347,6 +383,10 @@ footer a {
 .icon {
   font-size: 24px;
 }
+.icon:hover {
+  transition: 1s;
+  transform: rotateY(360deg);
+}
 .socials {
   display: flex;
   justify-content: space-between;
@@ -367,6 +407,7 @@ footer a {
   position: absolute;
   background-color: #f6f6f6;
   border-radius: 8px;
+  box-shadow: 0px 16px 16px 0px #0000000a;
 }
 .unlist2 li {
   padding: 10px;
@@ -376,7 +417,7 @@ footer a {
   background-color: #067eb9;
 }
 .unlist2 li:hover a {
-  color: #fff;
+  color: #fff !important;
 }
 .unlist2 li:hover .caret_icon {
   color: #fff;
@@ -388,6 +429,12 @@ footer a {
   margin-right: 10px;
 }
 .footer_list {
-  background-color: #0797de;
-  color: #f6f6f6;
+  background-color: #f6f6f6;
+  box-shadow: 0px 16px 16px 0px #0000000a;
+}
+.footer_list a {
+  color: #0797de !important;
+}
+footer a:hover {
+  color: #044c6f !important;
 }

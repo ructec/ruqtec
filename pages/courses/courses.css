@@ -21,6 +21,7 @@
   border-radius: 24px;
   display: flex;
   justify-content: center;
+  box-shadow: 0px 8px 16px 2px #7a787814;
 }
 .course_title {
   font-size: 29px;
@@ -81,6 +82,10 @@
   border: unset;
   color: #222222;
   cursor: pointer;
+  font-size: 16px;
+}
+.enrol_btn:hover {
+  border-bottom: 1px solid #222222;
 }
 .course_overall_wrapper {
   height: 77.5%;
