@@ -44,12 +44,17 @@ body {
   width: 80%;
   align-items: center;
 }
-.unlist {
+.unlist,
+.unlist_mq {
   display: flex;
   width: 300px;
   justify-content: space-between;
 }
-.unlist a {
+.unlist_mq {
+  display: none;
+}
+.unlist a,
+.unlist_mq a {
   color: #067eb9;
   width: 100%;
 }
@@ -438,4 +443,10 @@ footer a {
 }
 footer a:hover {
   color: #044c6f !important;
+}
+.ham {
+  display: none;
+  color: #0797de;
+  font-size: 28px;
+  cursor: pointer;
 }
