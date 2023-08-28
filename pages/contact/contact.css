@@ -26,6 +26,7 @@
 .contact_icon {
   font-size: 40px;
   color: #676665;
+  text-align: center;
 }
 .contact_icon:hover {
   transition: 1s;
