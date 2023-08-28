@@ -45,6 +45,8 @@ label {
 }
 .form_select {
   color: #9a9998;
+  background-color: #fff;
+  border: unset;
 }
 .submit_btn {
   background-color: #0797de;
