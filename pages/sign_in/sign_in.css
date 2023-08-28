@@ -5,10 +5,13 @@
   justify-content: center;
   align-items: center;
 }
+.form_cont {
+  width: 45%;
+}
 .sign_in_form {
   height: 360px;
   background: linear-gradient(51.6deg, #056594 -2.69%, #0797de 79.14%);
-  width: 600px;
+  width: 100%;
   border-radius: 24px;
   display: flex;
   align-items: center;
@@ -41,6 +44,7 @@ input {
   border: unset;
   padding: 5px;
   border-radius: 4px;
+  font-size: 16px;
 }
 .form_sign_btn {
   width: 100%;
@@ -52,4 +56,40 @@ input {
 }
 .pwd_text {
   color: #ffffff;
+}
+
+@media screen and (max-width: 955px) {
+  .form_cont {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .sign_btn_cont_bg {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .form_cont {
+    width: 75%;
+  }
+  .sign_in_form {
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form_head {
+    margin: 20px 3px;
+  }
+  .sign_in_form {
+    border-radius: 8px;
+  }
+  form {
+    width: 90%;
+  }
+  .form_cont {
+    width: 90%;
+  }
 }
