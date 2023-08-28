@@ -30,7 +30,6 @@
 }
 .sign_btn_cont_mq {
   display: none;
-  /* think agai, review head media query */
 }
 
 @media screen and (max-width: 830px) {
