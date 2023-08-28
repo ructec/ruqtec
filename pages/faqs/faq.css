@@ -119,6 +119,10 @@
   .acc2_body_text {
     font-size: 19px;
   }
+  .faq_head_cont {
+    margin: 40px;
+    height: 120px;
+  }
 }
 
 @media screen and (max-width: 360px) {
