@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .about_body_cont2 {
   width: 80%;
@@ -40,9 +41,10 @@
 }
 .acc2_body {
   width: 80%;
+  margin-top: 10px;
 }
 .acc_icon2_wrapper {
-  margin-top: 20px;
+  margin-top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,4 +61,74 @@
 .show2 {
   height: 90px;
   transition: 0.3s;
+}
+.acc_num_cont {
+  margin-top: 10px;
+}
+.faq_head_cont {
+  background-color: #fff;
+  height: 90px;
+  text-align: center;
+  margin: 20px 0;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq_head_text {
+  font-size: 35px;
+  font-weight: 900;
+  color: #067eb9;
+}
+
+@media screen and (max-width: 1162px) {
+  .acc2_body_text {
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .acc2_body {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .acc2_head_text {
+    font-size: 30px;
+  }
+  .acc_num {
+    font-size: 32px;
+  }
+  .acc2_body_text {
+    font-size: 23px;
+  }
+  .acc_num {
+    font-size: 32px;
+  }
+  .about_body_cont2,
+  .faq_head_cont {
+    width: 90%;
+  }
+  .about_accordion2_wrapper {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .acc2_body_text {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .faq_head_text {
+    font-size: 30px;
+  }
+  .acc2_head_text {
+    font-size: 27px;
+  }
+  .acc_num {
+    font-size: 28px;
+  }
 }
