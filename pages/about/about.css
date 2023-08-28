@@ -48,3 +48,40 @@
   transform: rotateX(-180deg);
   transition: 0.3s;
 }
+
+@media screen and (max-width: 1162px) {
+  .acc1_body {
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .acc1_head_text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .acc1_head {
+    justify-content: center;
+  }
+  .acc1_head_wrapper {
+    width: 90%;
+  }
+  .about_body_cont {
+    width: 90%;
+  }
+  .acc1_head_wrapper {
+    margin-left: unset;
+  }
+
+  .acc1_body_text {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .acc1_head_text {
+    font-size: 25px;
+  }
+}
