@@ -86,3 +86,20 @@
     text-align: center;
   }
 } */
+
+@media screen and(max-width: 830px) {
+  .contact_body {
+    height: 300px;
+    background-color: red;
+  }
+  .contact_wrapper {
+    width: 90%;
+    height: 70%;
+  }
+  .contact_cont {
+    height: 100%;
+  }
+  .contact_media {
+    width: 100%;
+  }
+}
