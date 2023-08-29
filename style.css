@@ -20,6 +20,11 @@ body {
   cursor: pointer;
   font-size: 16px;
 }
+.not_available:hover{
+  cursor: not-allowed;
+  
+  /* border: 2px solid red; */
+}
 .sign_btn:hover {
   border-bottom: 1px solid #222222;
 }
