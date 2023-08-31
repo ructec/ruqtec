@@ -127,3 +127,9 @@ textarea {
   height: 100%;
   width: 80%;
 }
+
+@media screen and (max-width: 640px) {
+  .reg_form_cont {
+    width: 90%;
+  }
+}

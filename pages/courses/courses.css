@@ -22,6 +22,7 @@
   display: flex;
   justify-content: center;
   box-shadow: 0px 8px 16px 2px #7a787814;
+  align-items: center;
 }
 .course_title {
   font-size: 29px;
@@ -49,10 +50,11 @@
   width: 80%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .course1_wrapper {
   width: 90%;
-  padding: 20px 0;
+  height: 93%;
 }
 .course_img {
   height: 40%;
@@ -74,9 +76,10 @@
 }
 .enrol_btn_cont {
   margin-top: 20px;
+  width: 100%;
 }
 .enrol_btn {
-  width: 295px;
+  width: 80%;
   height: 40px;
   border-radius: 8px;
   border: unset;
@@ -109,4 +112,48 @@
 }
 .course_price {
   color: #343333;
+}
+
+@media screen and (max-width: 1177px) {
+  .course1 {
+    width: 45%;
+  }
+  .course1_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .course_title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .course_wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .courses_body {
+    height: 1400px;
+  }
+  .course_overall_wrapper {
+    height: 89.3%;
+  }
+  .courses_container {
+    height: 100%;
+  }
+  .course_wrapper {
+    height: 98%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .course1 {
+    width: 80%;
+    margin: 10px 0;
+  }
 }
