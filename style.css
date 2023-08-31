@@ -266,13 +266,12 @@ body {
   background-color: #ededed;
   height: fit-content;
 }
-.section4_body {
+/* .section4_body {
   padding: 6vw 10vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* border: 2px solid red; */
   gap: 2vw;
-}
+} */
 
 .logos_container{
   /* border: 2px solid red; */
