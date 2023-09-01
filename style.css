@@ -551,8 +551,6 @@ footer a:hover {
   }
   .section3 {
     height: 93%;
-    /* justify-content: space-between; */
-    /* flex-direction: column; */
     margin-bottom: 40px;
   }
   .testimonial_card_cont {
@@ -565,12 +563,6 @@ footer a:hover {
     left: 32%;
   }
 }
-
-/* @media screen and (max-width: 585px) {
-  .test_img{
-    left: 150px;
-  }
-} */
 
 @media screen and (max-width: 580px) {
   .newsletter_section_text {

@@ -142,4 +142,7 @@
     justify-content: space-evenly;
     margin-bottom: unset;
   }
+  .contact_info p {
+    font-size: 22px;
+  }
 }
