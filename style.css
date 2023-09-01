@@ -20,9 +20,9 @@ body {
   cursor: pointer;
   font-size: 16px;
 }
-.not_available:hover{
+.not_available:hover {
   cursor: not-allowed;
-  
+
   /* border: 2px solid red; */
 }
 .sign_btn:hover {
@@ -79,7 +79,7 @@ body {
   align-items: center;
 }
 .logo_name {
-  border-left: 1px solid #0797de;
+  border-left: 2px solid #0797de;
   padding-left: 10px;
   color: #0797de;
   font-weight: 700;
@@ -276,16 +276,15 @@ body {
   gap: 2vw;
 }
 
-.logos_container{
-  /* border: 2px solid red; */
+.logos_container {
   width: 80%;
   height: 6vw;
 }
 
-.each_logo {
+/* .each_logo {
   width: 100%;
   height: 100%;
-}
+} */
 .sub_btn {
   color: #222222;
   width: 124px;
