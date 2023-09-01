@@ -158,3 +158,21 @@
     margin: 10px 0;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .course1 {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .contact_info p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .course_head {
+    font-size: 40px;
+  }
+}
