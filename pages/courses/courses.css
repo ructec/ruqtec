@@ -74,7 +74,8 @@
   font-size: 24px;
   color: #343333;
 }
-.enrol_btn_cont {
+.enrol_btn_cont,
+.enrol_btn_cont2 {
   margin-top: 20px;
   width: 100%;
 }
@@ -86,7 +87,7 @@
   color: #222222;
   cursor: pointer;
   font-size: 16px;
-  background-color: #fff;
+  background-color: #0797de;
   border: 1px solid #222222;
 }
 .enrol_btn:hover {
