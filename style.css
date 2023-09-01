@@ -137,14 +137,14 @@ body {
   font-weight: 700;
 }
 .apply_btn {
-  width: 311px;
+  width: 100%;
   height: 48px;
   background-color: #0babfa;
   cursor: pointer;
   border: unset;
   border-radius: 8px;
   margin: 30px 0 20px 0;
-  font-size: 200%;
+  font-size: calc(15px + 0.390625vw);
   font-weight: 700;
 }
 .apply_btn:hover {
@@ -164,6 +164,8 @@ body {
   font-size: 24px;
   font-weight: 700;
   color: #f6f6f6;
+  padding: 0 10px;
+  text-align: center;
 }
 .section2 {
   background-image: url(./Images/coding.jpg);
@@ -198,6 +200,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 .section3_head,
 .section4_head {
@@ -251,7 +254,7 @@ body {
 }
 .test_card_wrapper {
   width: 86%;
-  margin-bottom: 40px;
+  margin-bottom: 27px;
 }
 .test_name {
   margin-top: 30px;
@@ -573,12 +576,24 @@ footer a:hover {
   }
 }
 
+@media screen and (max-width: 550px) {
+  .section2_head_text {
+    font-size: 31px;
+  }
+}
+
 @media screen and (max-width: 460px) {
   .email_input::placeholder {
     font-size: 12px;
   }
   .sub_btn {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .test_card {
+    height: 350px;
   }
 }
 
@@ -602,5 +617,23 @@ footer a:hover {
   }
   .test_card_wrapper {
     margin-bottom: 23px;
+  }
+  .section4_head_text {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .section2_content_1 {
+    width: 100%;
+    font-size: 30px;
+    padding: 0 10px;
+  }
+  .section2_head_text {
+    font-size: 28px;
+  }
+  .test_img {
+    height: 130px;
+    left: 25%;
   }
 }
