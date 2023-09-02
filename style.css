@@ -509,17 +509,13 @@ footer a {
   border-radius: 8px;
   box-shadow: 0px 16px 16px 0px #0000000a;
 }
-.unlist2 li {
+.unlist2 a {
   padding: 10px;
   transition: 1s;
+  display: block;
 }
-.unlist2 li:hover {
+.unlist2 a:hover {
   background-color: #067eb9;
-}
-.unlist2 li:hover a {
-  color: #fff !important;
-}
-.unlist2 li:hover .caret_icon {
   color: #fff;
 }
 .course_list:hover .unlist2 {
