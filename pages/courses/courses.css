@@ -87,14 +87,95 @@
   color: #222222;
   cursor: pointer;
   font-size: 16px;
-  background-color: #0797de;
+  /* background-color: #0797de; */
+}
+.custom-btn {
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.enrol_btn {
+  background: linear-gradient(149.03deg, #0797de 39.1%, #056594 137.44%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.enrol_btn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.enrol_btn:before,
+.enrol_btn:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+.enrol_btn:before {
+  height: 0%;
+  width: 2px;
+}
+.enrol_btn:after {
+  width: 0%;
+  height: 2px;
 }
 .enrol_btn:hover {
+  background: transparent;
+  box-shadow: none;
+}
+.enrol_btn:hover:before {
+  height: 100%;
+}
+.enrol_btn:hover:after {
+  width: 100%;
+}
+.enrol_btn span:hover {
+  color: rgba(2, 126, 251, 1);
+}
+.enrol_btn span:before,
+.enrol_btn span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+.enrol_btn span:before {
+  width: 2px;
+  height: 0%;
+}
+.enrol_btn span:after {
+  width: 0%;
+  height: 2px;
+}
+.enrol_btn span:hover:before {
+  height: 100%;
+}
+.enrol_btn span:hover:after {
+  width: 100%;
+}
+
+/* .enrol_btn:hover {
   border-bottom: 2px solid #222222;
 }
 .enrol_btn:focus {
   color: #fff;
-}
+} */
 .course_overall_wrapper {
   height: 77.5%;
   display: flex;
