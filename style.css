@@ -23,12 +23,92 @@ body {
 .not_available:hover {
   cursor: not-allowed;
 }
-.sign_btn:hover {
+.custom-btn {
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.all_btn {
+  background: linear-gradient(149.03deg, #0797de 39.1%, #056594 137.44%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.all_btn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.all_btn:before,
+.all_btn:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+.all_btn:before {
+  height: 0%;
+  width: 2px;
+}
+.all_btn:after {
+  width: 0%;
+  height: 2px;
+}
+.all_btn:hover {
+  background: transparent;
+  box-shadow: none;
+}
+.all_btn:hover:before {
+  height: 100%;
+}
+.all_btn:hover:after {
+  width: 100%;
+}
+.all_btn span:hover {
+  color: rgba(2, 126, 251, 1);
+}
+.all_btn span:before,
+.all_btn span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+.all_btn span:before {
+  width: 2px;
+  height: 0%;
+}
+.all_btn span:after {
+  width: 0%;
+  height: 2px;
+}
+.all_btn span:hover:before {
+  height: 100%;
+}
+.all_btn span:hover:after {
+  width: 100%;
+}
+/* .sign_btn:hover {
   border-bottom: 1px solid #222222;
 }
 .sign_btn:focus {
   color: #fff;
-}
+} */
 .menu_container {
   background-color: #fff;
   display: flex;
@@ -109,12 +189,12 @@ body {
   color: #222222;
   cursor: pointer;
 }
-.start_btn:hover {
+/* .start_btn:hover {
   border-bottom: 1px solid #222222;
 }
 .start_btn:focus {
   color: #fff;
-}
+} */
 .section1 {
   width: 80%;
   height: 80%;
@@ -147,12 +227,12 @@ body {
   font-size: calc(15px + 0.390625vw);
   font-weight: 700;
 }
-.apply_btn:hover {
+/* .apply_btn:hover {
   border-bottom: 1px solid #222222;
 }
 .apply_btn:focus {
   color: #fff;
-}
+} */
 .section2_content_1 {
   font-size: 40px;
   font-weight: 700;
@@ -301,12 +381,12 @@ body {
   cursor: pointer;
   font-size: 16px;
 }
-.sub_btn:hover {
+/* .sub_btn:hover {
   border-bottom: 1px solid #222222;
 }
 .sub_btn:focus {
   color: #fff;
-}
+} */
 .email_input {
   width: 84%;
   height: 40px;
