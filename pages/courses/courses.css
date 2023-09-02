@@ -88,10 +88,12 @@
   cursor: pointer;
   font-size: 16px;
   background-color: #0797de;
-  border: 1px solid #222222;
 }
 .enrol_btn:hover {
   border-bottom: 2px solid #222222;
+}
+.enrol_btn:focus {
+  color: #fff;
 }
 .course_overall_wrapper {
   height: 77.5%;
@@ -168,5 +170,8 @@
 @media screen and (max-width: 450px) {
   .course_head {
     font-size: 40px;
+  }
+  .enrol_btn_cont {
+    text-align: center;
   }
 }
