@@ -572,6 +572,28 @@ footer a:hover {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+.top_btn {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 33px;
+  right: 55px;
+  border-radius: 50%;
+  border: unset;
+  cursor: pointer;
+  font-size: 24px;
+}
+.top_btn:hover {
+  animation: bounce 1s infinite;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
 
 @media screen and (max-width: 1196px) {
   .section3_wrapper {
