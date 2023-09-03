@@ -557,6 +557,8 @@ footer a:hover {
   z-index: 1;
   top: 3px;
   left: 102%;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .tooltip .tooltiptext::after {
@@ -571,6 +573,7 @@ footer a:hover {
 }
 .tooltip:hover .tooltiptext {
   visibility: visible;
+  opacity: 1;
 }
 .top_btn {
   width: 45px;
