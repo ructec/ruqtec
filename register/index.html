@@ -136,40 +136,105 @@
           <form action="" class="reg_form">
             <div class="form_wrapper">
               <div class="input_cont">
-                <label for="">Name</label
-                ><input class="each_input" type="text" placeholder="Name" />
+                <label for="fname">First Name</label
+                ><input
+                  class="each_input"
+                  type="text"
+                  placeholder="First name"
+                  id="fname"
+                  name="fname"
+                />
               </div>
               <div class="input_cont">
-                <label for="">Email</label
-                ><input class="each_input" type="email" placeholder="Email" />
+                <label for="lname">Last Name</label
+                ><input
+                  class="each_input"
+                  type="text"
+                  placeholder="Last name"
+                  id="lname"
+                  name="lname"
+                />
               </div>
               <div class="input_cont">
-                <label for="">Phone Number</label
+                <label for="user_email">Email</label
+                ><input
+                  class="each_input"
+                  type="email"
+                  placeholder="Email"
+                  id="user_email"
+                  name="user_email"
+                />
+              </div>
+              <div class="input_cont">
+                <label for="pnum">Phone Number</label
                 ><input
                   class="each_input"
                   type="text"
                   placeholder="Phone Number"
+                  id="pnum"
+                  name="pnum"
                 />
               </div>
               <div class="input_cont">
-                <label for="">Address</label
-                ><input class="each_input" type="text" placeholder="Address" />
+                <label for="address">Address</label
+                ><input
+                  class="each_input"
+                  type="text"
+                  placeholder="Address"
+                  name="address"
+                  id="address"
+                />
               </div>
-              <div class="input_cont">
-                <label for="">Preferred Course</label>
-                <select class="form_select">
-                  <option value="">Select an option</option>
-                  <option value="">Frontend Development</option>
-                  <option value="">Backend Development</option>
-                  <option value="">Product Design</option>
+              <!-- <div class="input_cont">
+                <label for="age">Age</label>
+                <select>
+                  <option value="">18-25</option>
+                  <option value="">18-25</option>
+                  <option value="">18-25</option>
+                  <option value="">18-25</option>
                 </select>
               </div>
               <div class="input_cont">
-                <label for="">Why do you want to study this course ?</label>
+                <label for="gender">Gender</label>
+                <div class="gen_cont">
+                  <div class="each_cont">
+                    <input type="radio" name="gender" />
+                    <label>Male</label>
+                  </div>
+                  <div class="each_cont">
+                    <input type="radio" name="gender" />
+                    <label>Female</label>
+                  </div>
+                </div>
+              </div>
+              <div class="input_cont">
+                <label for="">Are you a Student or a Corps Member?</label>
+                <div class="each_cont2">
+                  <input type="radio" name="student_select" />
+                  <label for="yes">Yes</label>
+                </div>
+                <input type="radio" name="student_select" />
+                   <label for="no">No</label>
+              </div> -->
+              <div class="input_cont">
+                <label for="pcourse">Preferred Course</label>
+                <select class="form_select" id="pcourse" name="pcourse">
+                  <option value="">Select an option</option>
+                  <option value="frontend_dev">Frontend Development</option>
+                  <option value="backend_dev">Backend Development</option>
+                  <option value="product_design">Product Design</option>
+                </select>
+              </div>
+              <div class="input_cont">
+                <label for="formq"
+                  >Why do you want to study this course ?</label
+                >
                 <textarea
                   cols="30"
                   rows="10"
                   placeholder="Write something here..."
+                  id="formq"
+                  name="formq"
                 ></textarea>
               </div>
               <div class="input_cont">
