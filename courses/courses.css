@@ -28,12 +28,12 @@
   font-size: 29px;
   color: #151414;
   font-weight: 700;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .course_desc {
   font-size: 18px;
   color: #565554;
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 .course_details {
   display: flex;
@@ -76,7 +76,7 @@
 }
 .enrol_btn_cont,
 .enrol_btn_cont2 {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   width: 100%;
 }
 .enrol_btn {
