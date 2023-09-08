@@ -41,15 +41,15 @@ form.addEventListener("submit", (e) => {
     .catch((err) => {
       console.log("Failed", err);
     });
-  allInputs.forEach((eachInput) => {
-    const eachInputValue = eachInput.value;
-    console.log(eachInputValue);
-  });
+  // allInputs.forEach((eachInput) => {
+  //   const eachInputValue = eachInput.value;
+  //   console.log(eachInputValue);
+  // });
   const firstName = formData.get("firstName");
   const lastName = formData.get("lastName");
   const email = formData.get("email");
   const phoneNumber = formData.get("phoneNumber");
-  const address = formData.get("address");
+  const address = formData.get("course");
   console.log(firstName);
   console.log(lastName);
   console.log(email);
