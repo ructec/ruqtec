@@ -1,5 +1,6 @@
 const form = document.querySelector("form");
 const emailText = document.getElementById("emailtext");
+const emailInput = document.querySelector(".email_input");
 // const submitBtn = document.querySelector(".submit_btn");
 // const allInputs = [...document.querySelectorAll(".each_input")];
 // const regBody = document.querySelector(".reg_body");
@@ -48,6 +49,7 @@ form.addEventListener("submit", (e) => {
       console.log(data);
       if (data.message == "email already exists") {
         emailText.style.display = "block";
+        emailInput.style.border = "1px solid red";
       }
     })
     .catch((err) => {
