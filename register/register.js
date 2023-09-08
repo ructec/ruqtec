@@ -1,5 +1,7 @@
-const submitBtn = document.querySelector(".submit_btn");
 const form = document.querySelector("form");
+const emailText = document.getElementById("emailtext");
+// const submitBtn = document.querySelector(".submit_btn");
+// const allInputs = [...document.querySelectorAll(".each_input")];
 // const regBody = document.querySelector(".reg_body");
 // const regText = document.querySelector(".reg_text");
 // const regHead = document.querySelector(".reg_head");
@@ -22,43 +24,42 @@ const form = document.querySelector("form");
 //   regHead.style.backgroundColor = "unset";
 // });
 
-const allInputs = [...document.querySelectorAll(".each_input")];
+const api = "https://ruqtec-backend.vercel.app/api/auth/register";
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const formData = new FormData(form);
+  //Convert array returned from formData to object
   const obj = Object.fromEntries(formData);
   console.log(obj);
+  //Convert object to JSON
+  const formJSON = JSON.stringify(obj);
 
-  const joi = JSON.stringify(obj);
-
-  console.log(joi);
-
-  // for (const entry of formData) {
-  //   console.log(entry);
-  // }
-
-  // for (const [key, value] of formData.entries()) {
-  //   console.log(key, value);
-  // }
-  // const jObj = JSON.stringify(formData);
-  // console.log(jObj);
-  const api = "https://ruqtec-backend.vercel.app/api/auth/register";
   const reqOptions = {
     method: "POST",
-    body: joi,
+    headers: { "Content-Type": "application/json" },
+    body: formJSON,
   };
   fetch(api, reqOptions)
     .then((res) => {
-      res.json();
+      console.log(res);
+      return res.json();
     })
     .then((data) => {
       console.log(data);
+      if (data.message == "email already exists") {
+        emailText.style.display = "block";
+      }
     })
     .catch((err) => {
       console.log("Failed", err);
     });
-  // allInputs.forEach((eachInput) => {
-  //   const eachInputValue = eachInput.value;
-  //   console.log(eachInputValue);
-  // });
 });
+
+fetch(api)
+  .then((res) => {
+    console.log(res);
+    return res.json();
+  })
+  .then((data) => {
+    console.log(data);
+  });
