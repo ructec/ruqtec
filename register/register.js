@@ -26,10 +26,26 @@ const allInputs = [...document.querySelectorAll(".each_input")];
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const formData = new FormData(form);
+  const obj = Object.fromEntries(formData);
+  console.log(obj);
+
+  const joi = JSON.stringify(obj);
+
+  console.log(joi);
+
+  // for (const entry of formData) {
+  //   console.log(entry);
+  // }
+
+  // for (const [key, value] of formData.entries()) {
+  //   console.log(key, value);
+  // }
+  // const jObj = JSON.stringify(formData);
+  // console.log(jObj);
   const api = "https://ruqtec-backend.vercel.app/api/auth/register";
   const reqOptions = {
     method: "POST",
-    body: formData,
+    body: joi,
   };
   fetch(api, reqOptions)
     .then((res) => {
@@ -45,14 +61,4 @@ form.addEventListener("submit", (e) => {
   //   const eachInputValue = eachInput.value;
   //   console.log(eachInputValue);
   // });
-  const firstName = formData.get("firstName");
-  const lastName = formData.get("lastName");
-  const email = formData.get("email");
-  const phoneNumber = formData.get("phoneNumber");
-  const address = formData.get("course");
-  console.log(firstName);
-  console.log(lastName);
-  console.log(email);
-  console.log(phoneNumber);
-  console.log(address);
 });
