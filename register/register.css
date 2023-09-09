@@ -22,6 +22,7 @@
   justify-content: center;
   height: 88%;
   align-items: center;
+  position: relative;
 }
 label {
   color: #f6f6f6;
@@ -44,7 +45,7 @@ label {
   font-size: 16px;
 }
 .form_select {
-  color: #9a9998;
+  color: #222222;
   background-color: #fff;
   border: unset;
 }
@@ -136,11 +137,10 @@ textarea {
 
 #email #emailtext {
   display: none;
-  background-color: black;
-  color: #fff;
+  background-color: unset;
+  color: red;
   text-align: center;
   border-radius: 6px;
-  padding: 3px 6px;
   position: absolute;
   z-index: 1;
   top: 117%;
@@ -161,6 +161,95 @@ textarea {
 
 #email:hover #emailtext {
   visibility: visible;
+}
+
+/* loader */
+@keyframes ldio-801x5dilppd-1 {
+  0% {
+    top: 36px;
+    height: 128px;
+  }
+  50% {
+    top: 60px;
+    height: 80px;
+  }
+  100% {
+    top: 60px;
+    height: 80px;
+  }
+}
+@keyframes ldio-801x5dilppd-2 {
+  0% {
+    top: 41.99999999999999px;
+    height: 116.00000000000001px;
+  }
+  50% {
+    top: 60px;
+    height: 80px;
+  }
+  100% {
+    top: 60px;
+    height: 80px;
+  }
+}
+@keyframes ldio-801x5dilppd-3 {
+  0% {
+    top: 48px;
+    height: 104px;
+  }
+  50% {
+    top: 60px;
+    height: 80px;
+  }
+  100% {
+    top: 60px;
+    height: 80px;
+  }
+}
+.ldio-801x5dilppd div {
+  position: absolute;
+  width: 30px;
+}
+.ldio-801x5dilppd div:nth-child(1) {
+  left: 35px;
+  background: #0797de;
+  animation: ldio-801x5dilppd-1 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: -0.2s;
+}
+.ldio-801x5dilppd div:nth-child(2) {
+  left: 85px;
+  background: #067eb9;
+  animation: ldio-801x5dilppd-2 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: -0.1s;
+}
+.ldio-801x5dilppd div:nth-child(3) {
+  left: 135px;
+  background: #056594;
+  animation: ldio-801x5dilppd-3 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: undefineds;
+}
+
+.loadingio-spinner-pulse-okvf76o9brf {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+.ldio-801x5dilppd {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-801x5dilppd div {
+  box-sizing: content-box;
+}
+.loader {
+  position: absolute;
+  display: none;
 }
 
 @media screen and (max-width: 640px) {

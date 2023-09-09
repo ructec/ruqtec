@@ -20,9 +20,6 @@ body {
   cursor: pointer;
   font-size: 16px;
 }
-/* .not_available:hover {
-  cursor: not-allowed;
-} */
 .custom-btn {
   color: #fff;
   border-radius: 5px;
