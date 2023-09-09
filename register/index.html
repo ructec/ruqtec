@@ -147,7 +147,6 @@
       </div>
       <div class="reg_body">
         <div class="reg_form_cont">
-          <!-- action="https://ruqtec-backend.vercel.app/api/auth/register" -->
           <form method="post" class="reg_form">
             <div class="form_wrapper">
               <div class="input_cont">
@@ -182,7 +181,7 @@
                     name="email"
                     required
                   />
-                  <span id="emailtext">user already exists</span>
+                  <span id="emailtext">email already exists</span>
                 </div>
               </div>
               <div class="input_cont">
@@ -193,10 +192,13 @@
                   placeholder="Phone Number"
                   id="phoneNumber"
                   name="phoneNumber"
+                  maxlength="11"
+                  inputmode="numeric"
+                  pattern="[0-9]*"
                   required
                 />
               </div>
-              <!-- <div class="input_cont">
+              <div class="input_cont">
                 <label for="address">Address</label
                 ><input
                   class="each_input"
@@ -206,11 +208,11 @@
                   id="address"
                   required
                 />
-              </div> -->
-              <!-- <div class="input_cont">
+              </div>
+              <div class="input_cont">
                 <label for="age">Age</label>
-                <select>
-                  <option value="">18-25</option>
+                <select class="form_select" id="age" name="age" required>
+                  <option value="">Select an option</option>
                   <option value="">18-25</option>
                   <option value="">18-25</option>
                   <option value="">18-25</option>
@@ -218,29 +220,30 @@
               </div>
               <div class="input_cont">
                 <label for="gender">Gender</label>
-                <div class="gen_cont">
-                  <div class="each_cont">
-                    <input type="radio" name="gender" />
-                    <label>Male</label>
-                  </div>
-                  <div class="each_cont">
-                    <input type="radio" name="gender" />
-                    <label>Female</label>
-                  </div>
+
+                <div class="gender_cont">
+                  <input type="radio" name="gender" required />
+                  <label>Male</label>
+                </div>
+                <div class="gender_cont">
+                  <input type="radio" name="gender" required />
+                  <label>Female</label>
                 </div>
               </div>
               <div class="input_cont">
                 <label for="">Are you a Student or a Corps Member?</label>
                 <div class="each_cont2">
-                  <input type="radio" name="student_select" />
+                  <input type="radio" name="student_select" required />
                   <label for="yes">Yes</label>
                 </div>
-                <input type="radio" name="student_select" />
-                   <label for="no">No</label>
-              </div> -->
+                <div class="each_cont2">
+                  <input type="radio" name="student_select" required />
+                  <label for="no">No</label>
+                </div>
+              </div>
               <div class="input_cont">
                 <label for="course">Preferred Course</label>
-                <select class="form_select" id="course" name="course">
+                <select class="form_select" id="course" name="course" required>
                   <option value="">Select an option</option>
                   <option value="frontend">Frontend Development</option>
                   <option value="backend">Backend Development</option>
@@ -257,6 +260,16 @@
                   name="whyThisCourse"
                   required
                 ></textarea>
+              </div>
+              <div class="input_cont">
+                <label for="couponCode">Apply coupon code</label>
+                <input
+                  class="each_input"
+                  type="text"
+                  placeholder="COUPON CODE"
+                  id="couponCode"
+                  name="couponCode"
+                />
               </div>
               <div class="input_cont">
                 <button class="submit_btn" type="submit">Submit Form</button>

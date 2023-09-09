@@ -20,7 +20,8 @@
   border-radius: 24px;
   display: flex;
   justify-content: center;
-  height: 88%;
+  /* height: 88%; */
+  margin: 50px 0;
   align-items: center;
   position: relative;
 }
@@ -45,9 +46,16 @@ label {
   font-size: 16px;
 }
 .form_select {
-  color: #222222;
+  /* color: #222222; */
   background-color: #fff;
   border: unset;
+}
+.form_select option {
+  color: #222222;
+}
+.gender_cont label,
+.each_cont2 label {
+  display: inline;
 }
 .submit_btn {
   background-color: #0797de;
@@ -71,10 +79,11 @@ label {
   height: 120px;
 }
 .reg_body {
-  height: 900px;
+  /* height: 900px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  height: auto;
 }
 .input_cont {
   margin: 20px 0;
@@ -95,6 +104,7 @@ textarea {
 }
 .form_wrapper {
   width: 100%;
+  margin: 20px 0;
 }
 .success_cont {
   background-color: #30a8e3;
