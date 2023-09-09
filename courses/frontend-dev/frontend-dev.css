@@ -343,11 +343,11 @@
     width: 80%;
     height: 5px;
   }
-  .cont1_cont {
-    display: unset;
-  }
   .course1_wrapper {
     padding: 0 10px;
+  }
+  .payment_cont {
+    height: 650px;
   }
 }
 
