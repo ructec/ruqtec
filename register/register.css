@@ -262,6 +262,11 @@ textarea {
   display: none;
 }
 
+@media screen and (max-width: 735px) {
+  .reg_form {
+    width: 85%;
+  }
+}
 @media screen and (max-width: 640px) {
   .reg_form_cont {
     width: 90%;
