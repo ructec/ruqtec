@@ -100,6 +100,17 @@ body {
 .all_btn span:hover:after {
   width: 100%;
 }
+.top_btn:before,
+.top_btn:after {
+  background: #000;
+}
+.top_btn span:hover {
+  color: #000;
+}
+.top_btn span:before,
+.top_btn span:after {
+  background: #000;
+}
 .menu_container {
   background-color: #fff;
   display: flex;
