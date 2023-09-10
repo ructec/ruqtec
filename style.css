@@ -481,6 +481,7 @@ footer a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
 }
 .course_list {
   position: relative;
@@ -570,9 +571,10 @@ footer a:hover {
   border: unset;
   cursor: pointer;
   font-size: 24px;
+  animation: bounce 1s infinite;
 }
 .top_btn:hover {
-  animation: bounce 1s infinite;
+  animation: unset;
 }
 @keyframes bounce {
   from {

@@ -45,14 +45,14 @@ label {
   border-radius: 4px;
   font-size: 16px;
 }
-.form_select {
-  /* color: #222222; */
+/* .form_select {
+  color: #222222;
   background-color: #fff;
   border: unset;
-}
-.form_select option {
+} */
+/* .form_select option {
   color: #222222;
-}
+} */
 .gender_cont label,
 .each_cont2 label {
   display: inline;
@@ -252,7 +252,7 @@ textarea {
   position: relative;
   transform: translateZ(0) scale(1);
   backface-visibility: hidden;
-  transform-origin: 0 0; /* see note above */
+  transform-origin: 0 0;
 }
 .ldio-801x5dilppd div {
   box-sizing: content-box;
