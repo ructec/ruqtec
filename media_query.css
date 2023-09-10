@@ -11,9 +11,6 @@
   top: 80px;
   z-index: 100;
 }
-.drop {
-  height: 250px;
-}
 .menu_dropdown {
   width: 80%;
   display: flex;
@@ -62,6 +59,9 @@
   }
   .unlist_ft {
     display: flex;
+  }
+  .drop {
+    height: 250px;
   }
 }
 
