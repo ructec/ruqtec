@@ -35,7 +35,8 @@
 .acc1_body {
   margin: 20px 0;
   height: 0;
-  overflow: hidden;
+  overflow: scroll;
+  padding-left: 30px;
 }
 .show {
   height: 238px;
@@ -47,12 +48,6 @@
 .rotate {
   transform: rotateX(-180deg);
   transition: 0.3s;
-}
-
-@media screen and (max-width: 1162px) {
-  .acc1_body {
-    overflow: scroll;
-  }
 }
 
 @media screen and (max-width: 540px) {
