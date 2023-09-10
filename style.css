@@ -369,7 +369,6 @@ body {
   border-radius: 50%;
 }
 .sub_btn {
-  color: #222222;
   width: 124px;
   height: 40px;
   background-color: #0797de;
@@ -378,6 +377,7 @@ body {
   font-weight: 400;
   cursor: pointer;
   font-size: 16px;
+  box-shadow: unset;
 }
 /* .sub_btn:hover {
   border-bottom: 1px solid #222222;
