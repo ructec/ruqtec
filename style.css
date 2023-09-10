@@ -100,12 +100,6 @@ body {
 .all_btn span:hover:after {
   width: 100%;
 }
-/* .sign_btn:hover {
-  border-bottom: 1px solid #222222;
-}
-.sign_btn:focus {
-  color: #fff;
-} */
 .menu_container {
   background-color: #fff;
   display: flex;
@@ -186,12 +180,6 @@ body {
   color: #222222;
   cursor: pointer;
 }
-/* .start_btn:hover {
-  border-bottom: 1px solid #222222;
-}
-.start_btn:focus {
-  color: #fff;
-} */
 .section1 {
   width: 80%;
   height: 80%;
@@ -224,12 +212,6 @@ body {
   font-size: calc(15px + 0.390625vw);
   font-weight: 700;
 }
-/* .apply_btn:hover {
-  border-bottom: 1px solid #222222;
-}
-.apply_btn:focus {
-  color: #fff;
-} */
 .section2_content_1 {
   font-size: 40px;
   font-weight: 700;
@@ -379,12 +361,6 @@ body {
   font-size: 16px;
   box-shadow: unset;
 }
-/* .sub_btn:hover {
-  border-bottom: 1px solid #222222;
-}
-.sub_btn:focus {
-  color: #fff;
-} */
 .email_input {
   width: 84%;
   height: 40px;
