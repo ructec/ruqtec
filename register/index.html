@@ -211,33 +211,28 @@
               </div>
               <div class="input_cont">
                 <label for="age">Age</label>
-                <select class="form_select" id="age" name="age" required>
-                  <option value="">Select an option</option>
-                  <option value="">18-25</option>
-                  <option value="">18-25</option>
-                  <option value="">18-25</option>
-                </select>
+                <input type="number" name="age" class="each_input" id="age">
               </div>
               <div class="input_cont">
                 <label for="gender">Gender</label>
 
                 <div class="gender_cont">
-                  <input type="radio" name="gender" required />
+                  <input type="radio" name="gender" value="male" required />
                   <label>Male</label>
                 </div>
                 <div class="gender_cont">
-                  <input type="radio" name="gender" required />
+                  <input type="radio" name="gender" value="female" required />
                   <label>Female</label>
                 </div>
               </div>
               <div class="input_cont">
                 <label for="">Are you a Student or a Corps Member?</label>
                 <div class="each_cont2">
-                  <input type="radio" name="student_select" required />
+                  <input type="radio" name="studentOrCorper" value= "true" required />
                   <label for="yes">Yes</label>
                 </div>
                 <div class="each_cont2">
-                  <input type="radio" name="student_select" required />
+                  <input type="radio" name="studentOrCorper" value="false" required />
                   <label for="no">No</label>
                 </div>
               </div>
