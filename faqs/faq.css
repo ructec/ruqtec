@@ -1,7 +1,7 @@
 .about_body2 {
   background-color: #f6f6f6;
   min-height: 500px;
-  max-height: 1200px;
+  max-height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@
   display: flex;
   margin: 30px 0;
   min-height: 60px;
-  max-height: 220px;
+  max-height: fit-content;
 }
 .about_accordion2_wrapper {
   display: flex;
@@ -55,11 +55,11 @@
   background-color: #056594;
 }
 .acc_icon2 {
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
 }
 .show2 {
-  height: 90px;
+  height: fit-content;
   transition: 0.3s;
 }
 .acc_num_cont {
@@ -122,7 +122,7 @@
     width: 27px;
   }
   .acc_icon2 {
-    font-size: 19px;
+    font-size: 16px;
   }
 }
 

@@ -1,7 +1,7 @@
 .about_body {
   background-color: #f6f6f6;
   min-height: 500px;
-  max-height: 1200px;
+  max-height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,7 @@
   color: #067eb9;
 }
 .acc1_body_text {
-  font-size: 24px;
+  font-size: 17px;
   color: #067eb9;
 }
 .acc1_body {
@@ -39,8 +39,9 @@
   padding-left: 30px;
 }
 .show {
-  height: 238px;
+  height: fit-content;
   transition: 0.3s;
+  line-height: 4vh;
 }
 .acc_icon {
   cursor: pointer;
@@ -71,7 +72,7 @@
   }
 
   .acc1_body_text {
-    font-size: 21px;
+    font-size: 16px;
   }
 }
 
