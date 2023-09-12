@@ -494,6 +494,7 @@ footer a {
   background-color: #f6f6f6;
   border-radius: 8px;
   box-shadow: 0px 16px 16px 0px #0000000a;
+  z-index: 1;
 }
 .unlist2 a {
   padding: 10px;
