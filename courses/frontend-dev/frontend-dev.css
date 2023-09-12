@@ -26,6 +26,8 @@
 .course_desc {
   line-height: 1.4;
   margin: 10px 0;
+  font-size: calc(15px + 0.390625vw);
+  text-align: center;
 }
 .course_title {
   text-align: center;
@@ -39,7 +41,7 @@
 .enrol_btn {
   background-color: #0797de;
   width: 100%;
-  font-size: 16px;
+  font-size: calc(14px + 0.390625vw);
 }
 .enrol_btn_cont,
 .enrol_btn_cont2 {
@@ -91,7 +93,7 @@
 }
 .part_list li {
   list-style-type: disc;
-  font-size: 20px;
+  font-size: calc(16px + 0.390625vw);
   font-weight: 700;
   color: #343333;
   margin-left: 25px;
@@ -140,7 +142,8 @@
   padding: 2px 0;
   list-style-type: disc;
   color: #343333;
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: calc(19px + 0.390625vw);
   font-weight: 700;
   letter-spacing: -1px;
 }
@@ -168,6 +171,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 10px 0;
+  padding: 0 10px;
 }
 .course_content_title {
   font-size: 32px;
@@ -270,6 +274,9 @@
   .payment_cont {
     width: 100%;
   }
+  .course_content1 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 560px) {
@@ -286,6 +293,11 @@
   }
   .course_head_cont {
     padding: 15px;
+  }
+}
+@media screen and (max-width: 537px) {
+  .part_list li {
+    margin: 5px 0 5px 5px;
   }
 }
 
@@ -319,9 +331,6 @@
   .req_head1 p {
     font-size: 26px;
   }
-  .req_list li {
-    font-size: 24px;
-  }
 }
 
 @media screen and (max-width: 478px) {
@@ -354,9 +363,6 @@
 }
 
 @media screen and (max-width: 440px) {
-  .req_list li {
-    font-size: 20px;
-  }
   .req_head1 {
     padding: 10px;
   }
@@ -365,9 +371,9 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 406px) {
   .req_list li {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
