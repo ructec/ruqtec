@@ -23,21 +23,22 @@
   justify-content: space-evenly;
 }
 .acc_num {
-  font-size: 35px;
+  font-size: 27px;
   color: #056594;
   font-weight: 900;
 }
 .acc2_head_text {
   font-weight: 900;
-  font-size: 35px;
+  font-size: 27px;
   color: #067eb9;
 }
 .acc2_body_text {
   color: #067eb9;
-  font-size: 24px;
+  font-size: 17px;
   margin-top: 10px;
   height: 0;
   overflow-y: auto;
+  line-height: 1.5rem;
 }
 .acc2_body {
   width: 80%;
@@ -76,7 +77,7 @@
   align-items: center;
 }
 .faq_head_text {
-  font-size: 35px;
+  font-size: 27px;
   font-weight: 900;
   color: #067eb9;
 }
@@ -89,16 +90,16 @@
 
 @media screen and (max-width: 760px) {
   .acc2_head_text {
-    font-size: 30px;
+    font-size: 25px;
   }
   .acc_num {
     font-size: 32px;
   }
   .acc2_body_text {
-    font-size: 23px;
+    font-size: 17px;
   }
   .acc_num {
-    font-size: 32px;
+    font-size: 25px;
   }
   .about_body_cont2,
   .faq_head_cont {
@@ -111,7 +112,7 @@
 
 @media screen and (max-width: 500px) {
   .acc2_body_text {
-    font-size: 19px;
+    font-size: 16px;
   }
   .faq_head_cont {
     margin: 40px;
@@ -128,12 +129,12 @@
 
 @media screen and (max-width: 360px) {
   .faq_head_text {
-    font-size: 30px;
+    font-size: 25px;
   }
   .acc2_head_text {
-    font-size: 27px;
+    font-size: 25px;
   }
   .acc_num {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
