@@ -104,16 +104,11 @@
 
       gtag("config", "G-707QSCTQ2K");
     </script>
+    <!-- <script src="../media_query.js" defer></script> -->
   </head>
   <body>
     <div id="menu_container"></div>
-    <script>
-      fetch("../header.html")
-        .then((response) => response.text())
-        .then((content) => {
-          document.getElementById("menu_container").innerHTML = content;
-        });
-    </script>
+
     <div class="menu_dropdown_cont">
       <div class="menu_dropdown">
         <div class="menu">
@@ -241,7 +236,7 @@
           document.querySelector("footer").innerHTML = content;
         });
     </script>
-    <script src="../media_query.js"></script>
+    <script src="../header.js"></script>
     <script src="./about.js"></script>
   </body>
 </html>

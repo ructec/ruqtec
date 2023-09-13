@@ -44,25 +44,22 @@
     <link rel="stylesheet" href="./faq.css" />
     <title>Ruqtec - Frequently Asked Questions</title>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-707QSCTQ2K">
-    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-707QSCTQ2K"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-707QSCTQ2K');
+      gtag("config", "G-707QSCTQ2K");
     </script>
   </head>
   <body>
     <div id="menu_container"></div>
-    <script>
-      fetch("../header.html")
-        .then((response) => response.text())
-        .then((content) => {
-          document.getElementById("menu_container").innerHTML = content;
-        });
-    </script>
     <div class="menu_dropdown_cont">
       <div class="menu_dropdown">
         <div class="menu">
@@ -104,7 +101,7 @@
           <div class="sign_btn_cont sign_btn_cont_mq">
             <a href="../sign_in/"
               ><button class="sign_btn custom-btn all_btn">
-                <span>custom-btn all_btn</span>
+                <span>Sign in</span>
               </button></a
             >
           </div>
@@ -204,7 +201,7 @@
         </div>
       </div>
     </div>
-     <footer></footer>
+    <footer></footer>
     <script>
       fetch("../footer.html")
         .then((response) => response.text())
@@ -212,7 +209,7 @@
           document.querySelector("footer").innerHTML = content;
         });
     </script>
-    <script src="../media_query.js"></script>
+    <script src="../header.js"></script>
     <script src="./faq.js"></script>
   </body>
 </html>
