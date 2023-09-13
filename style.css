@@ -519,12 +519,12 @@ footer a {
 .footer_list a {
   color: #0797de !important;
 }
-.footer_list a:hover {
-  color: #fff;
-}
-/* footer a:hover {
+.unlist_ft a:hover {
   color: #044c6f !important;
-} */
+}
+.footer_list a:hover {
+  color: #fff !important;
+}
 .ham {
   display: none;
   color: #0797de;
