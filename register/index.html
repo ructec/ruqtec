@@ -157,7 +157,14 @@
               </div>
               <div class="input_cont">
                 <label for="age">Age</label>
-                <input type="number" name="age" class="each_input" id="age" />
+                <input
+                  type="text"
+                  name="age"
+                  class="each_input"
+                  id="age"
+                  inputmode="numeric"
+                  pattern="[0-9]*"
+                />
               </div>
               <div class="input_cont">
                 <label for="gender">Gender</label>
@@ -234,7 +241,7 @@
                   placeholder="COUPON CODE"
                   id="couponCode"
                   name="couponCode"
-                  value="code"
+                  value=""
                 />
               </div>
               <div class="input_cont">
@@ -252,7 +259,7 @@
         </div>
       </div>
     </div>
-     <footer></footer>
+    <footer></footer>
     <script>
       fetch("../footer.html")
         .then((response) => response.text())
@@ -260,7 +267,7 @@
           document.querySelector("footer").innerHTML = content;
         });
     </script>
-     <script src="../header.js"></script>
+    <script src="../header.js"></script>
     <script src="./register.js"></script>
   </body>
 </html>

@@ -52,7 +52,8 @@
   .unlist_mq {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
     height: 70%;
     width: auto;
     text-align: center;
@@ -61,7 +62,8 @@
     display: flex;
   }
   .drop {
-    height: 250px;
+    height: 140px;
+    overflow: visible;
   }
 }
 
@@ -88,7 +90,7 @@
     display: flex;
   }
   .unlist_ft a {
-    font-size: 18px;
+    /* font-size: 18px; */
   }
   .contact_info {
     margin: 15px 10px;
@@ -130,6 +132,9 @@
   }
   .unlist_ft li {
     padding: 20px 0;
+  }
+  .footer_select li {
+    padding: unset;
   }
   .contact_info {
     margin: unset;
