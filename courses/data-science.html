@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Master Backend Development with Ruqtec's Comprehensive Course"
+    />
+    <meta name="title" content="Ruqtec - Backend Development Course" />
+    <meta name="author" content="Hameed Faruq & Ruqtec" />
+    <meta
+      name="keywords"
+      content="Ruqtec, EdTech, backend development course, database management, mongoose, Node.js, Express, MongoDB"
+    />
+    <meta
+      name="robots"
+      content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/./Images/logo.png" />
+    <link rel="shortcut" href="/./Images/logo.png" />
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="/./Images/logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../courses.css" />
+    <link rel="stylesheet" href="../../media_query.css" />
+    <link rel="stylesheet" href="../frontend-dev/frontend-dev.css" />
+
+    <title>Ruqtec - Data Science Course</title>
+  </head>
+  <body>
+    <div id="menu_container"></div>
+    <script>
+      fetch("../../header.html")
+        .then((response) => response.text())
+        .then((content) => {
+          document.getElementById("menu_container").innerHTML = content;
+        });
+    </script>
+    <div class="menu_dropdown_cont">
+      <div class="menu_dropdown">
+        <div class="menu">
+          <ul class="unlist_mq">
+            <li><a href="../../">Home</a></li>
+            <li class="course_list">
+              <a href="../" class="main_lk">Courses</a
+              ><i class="fa-solid fa-caret-down caret_icon"></i>
+              <ul class="unlist2">
+                <li><a href="../frontend-dev/">Frontend Development</a></li>
+                <li><a href="../backend-dev/">Backend Development</a></li>
+                <hr />
+                <li>
+                  <a href="../product-design/" class="tooltip"
+                    >Product Design<span class="tooltiptext"
+                      >Coming Soon!</span
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a href="../cyber-security/" class="tooltip"
+                    >Cyber Security<span class="tooltiptext"
+                      >Coming Soon!</span
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a href="./" class="tooltip"
+                    >Software Testing<span class="tooltiptext"
+                      >Coming Soon!</span
+                    ></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><a href="../../about/">About</a></li>
+            <li><a href="../../contact/">Contact</a></li>
+          </ul>
+          <div class="sign_btn_cont sign_btn_cont_mq">
+            <a href="../../sign_in/"
+              ><button class="sign_btn custom-btn all_btn">
+                <span>Sign in</span>
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+    <script>
+      fetch("../../footer.html")
+        .then((response) => response.text())
+        .then((content) => {
+          document.querySelector("footer").innerHTML = content;
+        });
+    </script>
+    
+    <button class="top_btn custom-btn all_btn">
+      <span>
+        <i class="fa-solid fa-arrow-up"></i>
+      </span>
+    </button>
+    <script src="../../media_query.js"></script>
+    <script src="../../app.js"></script>
+  </body>
+</html>

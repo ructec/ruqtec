@@ -62,72 +62,29 @@
 
     <title>Ruqtec - Contact Us</title>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-707QSCTQ2K">
-    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-707QSCTQ2K"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-707QSCTQ2K');
+      gtag("config", "G-707QSCTQ2K");
     </script>
-    </head>
+  </head>
   <body>
-    <div class="menu_container">
-      <div class="menu_wrapper">
-        <a href="../">
-          <div class="logo_container">
-            <img src="../Images/logo.png" alt="logo" />
-            <h1 class="logo_name">Ruqtec</h1>
-          </div>
-        </a>
-        <ul class="unlist">
-          <li><a href="../">Home</a></li>
-          <li class="course_list">
-            <a href="../courses/" class="main_lk">Courses</a
-            ><i class="fa-solid fa-caret-down caret_icon"></i>
-            <ul class="unlist2">
-              <li>
-                <a href="../courses/frontend-dev/">Frontend Development</a>
-              </li>
-              <li><a href="../courses/backend-dev/">Backend Development</a></li>
-              <hr />
-              <li>
-                <a href="../courses/product-design/" class="tooltip"
-                  >Product Design<span class="tooltiptext"
-                    >Coming Soon!</span
-                  ></a
-                >
-              </li>
-              <li>
-                <a href="../courses/cyber-security/" class="tooltip"
-                  >Cyber Security<span class="tooltiptext"
-                    >Coming Soon!</span
-                  ></a
-                >
-              </li>
-              <li>
-                <a href="../courses/software-testing/" class="tooltip"
-                  >Software Testing<span class="tooltiptext"
-                    >Coming Soon!</span
-                  ></a
-                >
-              </li>
-            </ul>
-          </li>
-          <li><a href="../about/">About</a></li>
-          <li><a href="../contact/">Contact</a></li>
-        </ul>
-        <div class="sign_btn_cont">
-          <a href="../sign_in/"
-            ><button class="sign_btn custom-btn all_btn">
-              <span>Sign in</span>
-            </button></a
-          >
-        </div>
-        <i class="fa-solid fa-bars ham"></i>
-      </div>
-    </div>
+    <div id="menu_container"></div>
+    <script>
+      fetch("../header.html")
+        .then((response) => response.text())
+        .then((content) => {
+          document.getElementById("menu_container").innerHTML = content;
+        });
+    </script>
     <div class="menu_dropdown_cont">
       <div class="menu_dropdown">
         <div class="menu">
@@ -205,75 +162,14 @@
         </div>
       </div>
     </div>
-    <footer>
-      <div class="footer_wrapper">
-        <div class="footer_content">
-          <div class="logo_info">
-            <a href="../">
-              <div class="logo_container">
-                <img src="../Images/logo.png" alt="logo" class="each_logo" />
-                <h1 class="footer_name">Ruqtec</h1>
-              </div>
-            </a>
-            <div class="contact_content">
-              <p class="email">info@ructec.com</p>
-              <p class="tel">+234 806 171 8441</p>
-            </div>
-          </div>
-          <ul class="unlist unlist_ft">
-            <li class="course_list footer_select">
-              <a href="../courses/" class="main_lk">Courses</a
-              ><i class="fa-solid fa-caret-down caret_icon footer_icon"></i>
-              <ul class="unlist2 footer_list">
-                <li>
-                  <a href="../courses/frontend-dev/">Frontend Development</a>
-                </li>
-                <li>
-                  <a href="../courses/backend-dev/">Backend Development</a>
-                </li>
-                <hr />
-                <li>
-                  <a href="../courses/product-design/" class="tooltip"
-                    >Product Design<span class="tooltiptext"
-                      >Coming Soon!</span
-                    ></a
-                  >
-                </li>
-                <li>
-                  <a href="../courses/cyber-security/" class="tooltip"
-                    >Cyber Security<span class="tooltiptext"
-                      >Coming Soon!</span
-                    ></a
-                  >
-                </li>
-                <li>
-                  <a href="../courses/software-testing/" class="tooltip"
-                    >Software Testing<span class="tooltiptext"
-                      >Coming Soon!</span
-                    ></a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li><a href="../about/">About</a></li>
-            <li><a href="../contact/">Contact</a></li>
-            <li><a href="../faqs/">FAQs</a></li>
-          </ul>
-          <div class="contact_info">
-            <p>Reach Us</p>
-            <div class="socials">
-              <a href="#"><i class="fa-brands fa-facebook icon"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin-in icon"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram icon"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter icon"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="footer_comments">
-          <p>&copy Ructec 2023. All Rights Reserved</p>
-        </div>
-      </div>
-    </footer>
+    <footer></footer>
+    <script>
+      fetch("../footer.html")
+        .then((response) => response.text())
+        .then((content) => {
+          document.querySelector("footer").innerHTML = content;
+        });
+    </script>
     <script src="../media_query.js"></script>
     <script src="./contact.js"></script>
   </body>

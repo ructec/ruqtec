@@ -111,7 +111,7 @@ body {
 .top_btn span:after {
   background: #000;
 }
-.menu_container {
+#menu_container {
   background-color: #fff;
   display: flex;
   justify-content: center;
