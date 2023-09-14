@@ -182,13 +182,11 @@
         .then((response) => response.text())
         .then((content) => {
           document.querySelector("footer").innerHTML = content;
-          const gg = document.querySelector(".footer_select");
-          const hg = document.querySelector(".footer_list");
-          gg.addEventListener("click", () => {
-            hg.classList.toggle("block");
+          const footerSelect = document.querySelector(".footer_select");
+          const footerList = document.querySelector(".footer_list");
+          footerSelect.addEventListener("click", () => {
+            footerList.classList.toggle("block");
           });
-
-          console.log(gg);
         });
     </script>
     <button class="top_btn custom-btn all_btn">

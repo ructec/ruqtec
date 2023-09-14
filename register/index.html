@@ -213,10 +213,15 @@
     </div>
     <footer></footer>
     <script>
-      fetch("../footer.html")
+     fetch("../footer.html")
         .then((response) => response.text())
         .then((content) => {
           document.querySelector("footer").innerHTML = content;
+          const footerSelect = document.querySelector(".footer_select");
+          const footerList = document.querySelector(".footer_list");
+          footerSelect.addEventListener("click", () => {
+            footerList.classList.toggle("block");
+          });
         });
     </script>
     <script src="../header.js"></script>
