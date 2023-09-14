@@ -19,4 +19,9 @@ fetch("../header.html")
         isOut = true;
       }
     });
+    const gg = document.querySelector(".header_list");
+    const hg = document.querySelector(".course_list2");
+    hg.addEventListener("click", () => {
+      gg.classList.toggle("block");
+    });
   });

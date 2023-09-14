@@ -86,7 +86,8 @@
   }
   .logo_info {
     margin: 0 10px;
-    height: 45%;
+    /* height: 45%; */
+    height: 26%;
   }
   .unlist_ft {
     margin: 18px 10px;
@@ -96,7 +97,9 @@
     margin: 15px 10px;
     width: 100%;
     text-align: center;
-    height: 90px;
+    /* height: 90px; */
+    height: 77px;
+    margin-top: 14px;
   }
   .contact_info p {
     font-size: 25px;
@@ -129,12 +132,12 @@
     width: 100%;
     align-items: center;
     margin: 20px 0 10px 0;
+    /* height: 300px; */
+    height: 200px;
   }
-  .unlist_ft li {
-    padding: 20px 0;
-  }
-  .footer_select li {
-    padding: unset;
+  .unlist_ft li,
+  .unlist_mq li {
+    margin: 5px 10px;
   }
   .contact_info {
     margin: unset;
@@ -149,5 +152,8 @@
   }
   .contact_info p {
     font-size: 22px;
+  }
+  .icon {
+    font-size: 30px;
   }
 }

@@ -182,6 +182,13 @@
         .then((response) => response.text())
         .then((content) => {
           document.querySelector("footer").innerHTML = content;
+          const gg = document.querySelector(".footer_select");
+          const hg = document.querySelector(".footer_list");
+          gg.addEventListener("click", () => {
+            hg.classList.toggle("block");
+          });
+
+          console.log(gg);
         });
     </script>
     <button class="top_btn custom-btn all_btn">
@@ -189,7 +196,7 @@
         <i class="fa-solid fa-arrow-up"></i>
       </span>
     </button>
-     <script src="../header.js"></script>
+    <script src="../header.js"></script>
     <script src="./courses.js"></script>
     <script src="../app.js"></script>
   </body>
