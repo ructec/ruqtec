@@ -36,7 +36,7 @@
     </script>
   </head>
   <body>
-   <div id="bigMenuWrapper"></div>
+    <div id="bigMenuWrapper"></div>
     <div class="register_cont">
       <div class="reg_head_cont">
         <div class="reg_head">
@@ -107,39 +107,42 @@
                   required
                 />
               </div>
-              <div class="input_cont">
-                <label for="age">Age</label>
-                <input
-                  type="text"
-                  name="age"
-                  class="each_input"
-                  id="age"
-                  inputmode="numeric"
-                  pattern="[0-9]*"
-                />
-              </div>
-              <div class="input_cont">
-                <label for="gender">Gender</label>
-
-                <div class="gender_cont">
+              <div class="age_gender">
+                <div class="input_cont age_cont">
+                  <label for="age">Age</label>
                   <input
-                    type="radio"
-                    id="male"
-                    name="gender"
-                    value="male"
-                    required
+                    type="text"
+                    name="age"
+                    class="each_input"
+                    id="age"
+                    inputmode="numeric"
+                    pattern="[0-9]*"
                   />
-                  <label for="male">Male</label>
                 </div>
-                <div class="gender_cont">
-                  <input
-                    type="radio"
-                    id="female"
-                    name="gender"
-                    value="female"
-                    required
-                  />
-                  <label for="female">Female</label>
+                <div class="input_cont gender_cont_wrapper">
+                  <label for="gender">Gender</label>
+                  <div class="gender_wrapper">
+                    <div class="gender_cont">
+                      <input
+                        type="radio"
+                        id="male"
+                        name="gender"
+                        value="male"
+                        required
+                      />
+                      <label for="male">Male</label>
+                    </div>
+                    <div class="gender_cont">
+                      <input
+                        type="radio"
+                        id="female"
+                        name="gender"
+                        value="female"
+                        required
+                      />
+                      <label for="female">Female</label>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="input_cont">
@@ -213,7 +216,7 @@
     </div>
     <footer></footer>
     <script>
-     fetch("../footer.html")
+      fetch("../footer.html")
         .then((response) => response.text())
         .then((content) => {
           document.querySelector("footer").innerHTML = content;

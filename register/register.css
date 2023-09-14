@@ -172,6 +172,24 @@ textarea {
 #email:hover #emailtext {
   visibility: visible;
 }
+.age_gender {
+  display: flex;
+  justify-content: space-between;
+}
+.age_cont {
+  width: 55%;
+}
+.gender_cont_wrapper {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gender_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
 
 /* loader */
 @keyframes ldio-801x5dilppd-1 {
