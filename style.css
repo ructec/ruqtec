@@ -117,6 +117,8 @@ body {
   justify-content: center;
   height: 80px;
   align-items: center;
+}
+#bigMenuWrapper {
   position: sticky;
   top: 0;
   width: 100%;

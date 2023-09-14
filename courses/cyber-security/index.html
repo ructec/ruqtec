@@ -47,55 +47,7 @@
     <title>Ruqtec - Cyber Security Course</title>
   </head>
   <body>
-    <div id="menu_container"></div>
-    <div class="menu_dropdown_cont">
-      <div class="menu_dropdown">
-        <div class="menu">
-          <ul class="unlist_mq">
-            <li><a href="../../">Home</a></li>
-            <li class="course_list">
-              <a href="../" class="main_lk">Courses</a
-              ><i class="fa-solid fa-caret-down caret_icon"></i>
-              <ul class="unlist2">
-                <li><a href="../frontend-dev/">Frontend Development</a></li>
-                <li><a href="../backend-dev/">Backend Development</a></li>
-                <hr />
-                <li>
-                  <a href="../product-design/" class="tooltip"
-                    >Product Design<span class="tooltiptext"
-                      >Coming Soon!</span
-                    ></a
-                  >
-                </li>
-                <li>
-                  <a href="../cyber-security/" class="tooltip"
-                    >Cyber Security<span class="tooltiptext"
-                      >Coming Soon!</span
-                    ></a
-                  >
-                </li>
-                <li>
-                  <a href="./" class="tooltip"
-                    >Software Testing<span class="tooltiptext"
-                      >Coming Soon!</span
-                    ></a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li><a href="../../about/">About</a></li>
-            <li><a href="../../contact/">Contact</a></li>
-          </ul>
-          <div class="sign_btn_cont sign_btn_cont_mq">
-            <a href="../../sign_in/"
-              ><button class="sign_btn custom-btn all_btn">
-                <span>Sign in</span>
-              </button></a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="bigMenuWrapper"></div>
     <footer></footer>
     <script>
       fetch("../../footer.html")
@@ -113,7 +65,7 @@
       fetch("../../header.html")
         .then((response) => response.text())
         .then((content) => {
-          document.getElementById("menu_container").innerHTML = content;
+          document.getElementById("bigMenuWrapper").innerHTML = content;
           //use hamburger after fetching
           const hamburger = document.querySelector(".ham");
           const menuDropdown = document.querySelector(".menu_dropdown_cont");

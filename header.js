@@ -1,7 +1,7 @@
 fetch("../header.html")
   .then((response) => response.text())
   .then((content) => {
-    document.getElementById("menu_container").innerHTML = content;
+    document.getElementById("bigMenuWrapper").innerHTML = content;
     //use hamburger after fetching
     const hamburger = document.querySelector(".ham");
     const menuDropdown = document.querySelector(".menu_dropdown_cont");
