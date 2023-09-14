@@ -35,11 +35,11 @@
 .acc1_body {
   margin: 20px 0;
   height: 0;
-  overflow-y: auto;
+  overflow-y: hidden;
   padding-left: 30px;
 }
 .show {
-  height: 238px;
+  height: auto;
   transition: 0.3s;
 }
 .acc_icon {
