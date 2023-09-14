@@ -58,6 +58,9 @@
     width: auto;
     text-align: center;
   }
+  .none {
+    display: none;
+  }
   .unlist_ft {
     display: flex;
   }
