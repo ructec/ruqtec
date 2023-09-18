@@ -39,11 +39,7 @@
   padding-left: 30px;
 }
 .show {
-<<<<<<< HEAD
-  height: auto;
-=======
   height: fit-content;
->>>>>>> 143cc0679544b5b18b49d4571cb935673699d844
   transition: 0.3s;
   line-height: 4vh;
 }
