@@ -126,6 +126,7 @@ body {
   box-shadow: 0px 8px 16px 2px #7a787814;
 }
 .menu_wrapper {
+  border: 2px solid red;
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -488,26 +489,30 @@ footer a {
 .course_list,
 .course_list2 {
   position: relative;
+  border: 2px solid red;
+
 }
 .unlist2 {
+  border: 2px solid red;
   display: none;
-  width: 200px;
+  width: 220px;
   left: -53px;
   position: absolute;
-  background-color: #f6f6f6;
   border-radius: 8px;
   box-shadow: 0px 16px 16px 0px #0000000a;
   z-index: 1;
   top: 30px;
+  font-size: 16px;
 }
-.unlist2 a {
-  /* padding: 5px 10px; */
+.unlist2 li {
+  padding: 2px 10px;
+  border-radius: 8px;
+  border: 2px solid #0000000a;
   transition: 1s;
-  display: block;
 }
-.unlist2 a:hover {
+.unlist2 li:hover {
   background-color: #067eb9;
-  color: #fff;
+  color: #fff !important;
 }
 .main_lk,
 .main_lk1 {
