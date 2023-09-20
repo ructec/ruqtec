@@ -174,12 +174,12 @@
   padding: 0 10px;
 }
 .course_content_title {
-  font-size: 32px;
+  font-size: calc(24px + 0.390625vw);
   font-weight: 700;
   margin: 5px 0;
 }
 .course_content_desc {
-  font-size: 24px;
+  font-size: calc(15px + 0.390625vw);
 }
 .part1_1_firstp {
   font-size: 20px;
@@ -255,10 +255,10 @@
 
 @media screen and (max-width: 960px) {
   .course_content_title {
-    font-size: 30px;
+    font-size: calc(24px + 0.390625vw);
   }
   .course_content_desc {
-    font-size: 21px;
+    font-size: calc(15px + 0.390625vw);
   }
 }
 

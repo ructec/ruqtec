@@ -126,7 +126,7 @@ body {
   box-shadow: 0px 8px 16px 2px #7a787814;
 }
 .menu_wrapper {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -489,14 +489,16 @@ footer a {
 .course_list,
 .course_list2 {
   position: relative;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
 }
 .unlist2 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: none;
   width: 220px;
   left: -53px;
+  background-color: #f6f6f6;
+
   position: absolute;
   border-radius: 8px;
   box-shadow: 0px 16px 16px 0px #0000000a;
