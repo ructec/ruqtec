@@ -180,6 +180,7 @@
 }
 .course_content_desc {
   font-size: calc(15px + 0.390625vw);
+  color:#565554;
 }
 .part1_1_firstp {
   font-size: 20px;
