@@ -25,86 +25,86 @@ form.addEventListener("submit", (e) => {
     headers: { "Content-Type": "application/json" },
     body: formJSON,
   };
-  fetch(api, reqOptions)
-    .then((res) => {
-      if (res.status === 200) {
-        return res.json();
-      } else if (res.status === 422) {
-        return res.json();
-      } else {
-        // Handle other HTTP status codes
-        throw new Error("An error occurred");
-      }
-    })
-    .then((data) => {
-      alert(data);
-    })
-    .catch((error) => {
-      // Handle any errors that occurred during the fetch or data processing
-      console.error(error.message);
-    });
-
   // fetch(api, reqOptions)
   //   .then((res) => {
-  //     if (res.status == 422) {
-  //       console.log(message);
-  //     }
-  //     // return res.json();
-  //   })
-  //   .then((data) => {
-  //     console.log(data);
-  //     if (data == "Age must be a number") {
-  //       console.log("ppp");
-  //       loader.style.display = "none";
-  //       form.style.opacity = "1";
-  //       alert(data);
-  //     }
-  //     if (data.message == "email already exists") {
-  //       loader.style.display = "none";
-  //       form.style.opacity = "1";
-  //       emailText.style.display = "block";
-  //       emailInput.style.border = "1px solid red";
-  //       alert("email already exists");
-  //     } else {
-  //       emailText.style.display = "none";
-  //       emailInput.style.border = "unset";
-  //     }
+  //     const result = res.json()
+  //     console.log({result})
+  //       return res.json("<h1>Hello world</h1>");
 
-  //     if (data.message == "Registration successful") {
-  //       loader.style.display = "none";
-  //       form.style.opacity = "1";
-  //       allInputs.forEach((eachInput) => {
-  //         eachInput.value = "";
-  //       });
-  //       regBody.innerHTML = `<div class="success_cont">
-  //             <div class="success_wrapper">
-  //               <div class="success_text_wrap">
-  //                 <p class="success_text">Congratulations</p>
-  //               </div>
-  //               <div class="success_msg">
-  //                 <p>Your form has been submitted</p>
-  //                 <p>We’ve sent you a mail to know what’s next.</p>
-  //               </div>
-  //             </div>
-  //           </div>`;
-  //       regBody.style.height = "400px";
-  //       regText.style.color = "#EDEDED";
-  //       regHead.style.backgroundColor = "unset";
-  //     }
+  //     // if (res.status === 200) {
+  //     //   return res.json("<h1>Hello world</h1>");
+  //     // } else if (res.status === 422) {
+  //     //   return res.json();
+  //     // } else {
+  //     //   // Handle other HTTP status codes
+  //     //   throw new Error("An error occurred");
+  //     // }
   //   })
   //   .catch((err) => {
-  //     alert("Please check your internet connection");
-  //     loader.style.display = "none";
-  //     form.style.opacity = "1";
-  //     console.log("Failed", err);
-  //   });
+  //     console.log({err})
+
+  //     alert(err);
+  //   })
+    // .catch((error) => {
+    //   // Handle any errors that occurred during the fetch or data processing
+    //   console.error(error.message);
+    // });
+
+  fetch(api, reqOptions)
+    .then((data) => {
+      console.log(data);
+      if (data == "Age must be a number") {
+        console.log("ppp");
+        loader.style.display = "none";
+        form.style.opacity = "1";
+        alert(data);
+      }
+      if (data.message == "email already exists") {
+        loader.style.display = "none";
+        form.style.opacity = "1";
+        emailText.style.display = "block";
+        emailInput.style.border = "1px solid red";
+        alert("email already exists");
+      } else {
+        emailText.style.display = "none";
+        emailInput.style.border = "unset";
+      }
+
+      if (data.message == "Registration successful") {
+        loader.style.display = "none";
+        form.style.opacity = "1";
+        allInputs.forEach((eachInput) => {
+          eachInput.value = "";
+        });
+        regBody.innerHTML = `<div class="success_cont">
+              <div class="success_wrapper">
+                <div class="success_text_wrap">
+                  <p class="success_text">Congratulations</p>
+                </div>
+                <div class="success_msg">
+                  <p>Your form has been submitted</p>
+                  <p>We’ve sent you a mail to know what’s next.</p>
+                </div>
+              </div>
+            </div>`;
+        regBody.style.height = "400px";
+        regText.style.color = "#EDEDED";
+        regHead.style.backgroundColor = "unset";
+      }
+    })
+    .catch((err) => {
+      alert(err);
+      loader.style.display = "none";
+      form.style.opacity = "1";
+      console.log("Failed", err);
+    });
 });
 
-fetch(api)
-  .then((res) => {
-    console.log(res);
-    return res.json();
-  })
-  .then((data) => {
-    console.log(data);
-  });
+// fetch(api)
+//   .then((res) => {
+//     console.log(res);
+//     return res.json();
+//   })
+//   .then((data) => {
+//     console.log(data);
+//   });
