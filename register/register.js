@@ -51,7 +51,7 @@ form.addEventListener("submit", (e) => {
     // });
 
   fetch(api, reqOptions)
-    .then((data) => {
+    .then((data) => { //if successful
       loader.style.display = "none";
       form.style.opacity = "1";
       allInputs.forEach((eachInput) => {
