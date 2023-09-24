@@ -52,7 +52,26 @@ form.addEventListener("submit", (e) => {
 
   fetch(api, reqOptions)
     .then((data) => {
-      console.log(data);
+      loader.style.display = "none";
+      form.style.opacity = "1";
+      allInputs.forEach((eachInput) => {
+        eachInput.value = "";
+      });
+      regBody.innerHTML = `<div class="success_cont">
+            <div class="success_wrapper">
+              <div class="success_text_wrap">
+                <p class="success_text">Congratulations</p>
+              </div>
+              <div class="success_msg">
+                <p>Your form has been submitted</p>
+                <p>We’ve sent you a mail to know what’s next.</p>
+              </div>
+            </div>
+          </div>`;
+      regBody.style.height = "400px";
+      regText.style.color = "#EDEDED";
+      regHead.style.backgroundColor = "unset";
+    console.log({data});
       if (data == "Age must be a number") {
         console.log("ppp");
         loader.style.display = "none";
