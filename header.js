@@ -25,3 +25,25 @@ fetch("../header.html")
       headerList.classList.toggle("block");
     });
   });
+
+  // header.js file
+// fetch("../header.html")
+// .then((response) => response.text())
+// .then((content) => {
+//   document.getElementById("bigMenuWrapper").innerHTML = content;
+
+//   // Select the necessary elements
+//   const courseList2 = document.querySelector(".course_list2");
+//   const headerList = document.querySelector(".header_list");
+
+//   // Add event listener to show/hide the course dropdown on hover
+//   courseList2.addEventListener("mouseenter", () => {
+//     headerList.classList.add("block");
+//   });
+
+//   // Optional: Add an event listener to hide the course dropdown if needed
+//   courseList2.addEventListener("mouseleave", () => {
+//     headerList.classList.remove("block");
+//   });
+
+// });
