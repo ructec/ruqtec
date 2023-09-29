@@ -145,7 +145,7 @@
           <div class="section2_content">
             <p class="section2_content_1">40% Scholarship on all courses</p>
             <a href="./courses/" style="color: #222222; width: 30%">
-              <button class="apply_btn custom-btn all_btn">
+              <button class="apply_btn custom-btn all_btn" id="apply">
                 <span>Apply Now</span>
               </button>
             </a>
@@ -325,7 +325,7 @@
     </div>
     <footer></footer>
     <script>
-      fetch("../footer.html")
+      fetch("./footer.html")
         .then((response) => response.text())
         .then((content) => {
           document.querySelector("footer").innerHTML = content;

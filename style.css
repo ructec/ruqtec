@@ -248,7 +248,7 @@ body {
   background-repeat: no-repeat;
 }
 .section2_cover {
-  background-color: #031823;
+  background-color: #030a1b;
   height: 100%;
   opacity: 0.93;
 }
@@ -307,10 +307,11 @@ body {
 }
 .test_img {
   position: absolute;
-  top: -74px;
+  top: -5em;
   left: 21%;
 }
 .section3_wrapper {
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   background-color: #f6f6f6;
