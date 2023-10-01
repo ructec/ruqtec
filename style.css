@@ -314,13 +314,15 @@ body {
   border-radius: 50%;
 }
 .section3_wrapper {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   background-color: #f6f6f6;
   align-items: flex-end;
-  height: fit-content;
-  padding: 20px 0;
+  height: 600px;
+  margin-bottom: 3em;
+  /* height: fit-content; //TO BE USED
+  padding: 20px 0; */
 }
 .section3 {
   width: 85%;
