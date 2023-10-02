@@ -1,9 +1,10 @@
 .menu_dropdown_cont {
+  /* border: 2px solid red; */
   height: 0px;
   overflow: hidden;
   transition: 0.3s;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  justify-content: flex-start;
   align-items: center;
   background-color: #fff;
   border-radius: 0px 0px 8px 8px;
@@ -21,7 +22,7 @@
   height: 100%;
   width: 50%;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: space-between;
   align-items: center;
 }
@@ -51,7 +52,9 @@
   }
   .unlist_mq {
     display: flex;
-    flex-direction: column;
+  /* border: 2px solid red; */
+
+    /* flex-direction: column; */
     /* justify-content: space-between; */
     justify-content: space-evenly;
     height: 70%;
@@ -65,8 +68,9 @@
     display: flex;
   }
   .drop {
-    height: 140px;
+    height: fit-content;
     overflow: visible;
+    padding-bottom: px;
   }
 }
 

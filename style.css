@@ -12,11 +12,11 @@ body {
 }
 .sign_btn {
   background-color: #0797de;
-  width: 124px;
+  width: 60px;
   height: 40px;
   border-radius: 8px;
   border: unset;
-  color: #222222;
+  color: #fff;
   cursor: pointer;
   font-size: 16px;
 }
@@ -115,10 +115,12 @@ body {
   background-color: #fff;
   display: flex;
   justify-content: center;
-  height: 80px;
+  height: fit-content;
   align-items: center;
+  padding: 0.62em 0;
 }
 #bigMenuWrapper {
+  /* border: 2px solid red; */
   position: sticky;
   top: 0;
   width: 100%;
@@ -147,6 +149,7 @@ body {
   width: 100%;
 }
 .caret_icon {
+  display: inline;
   color: #067eb9;
 }
 .unlist a:hover {
@@ -321,7 +324,7 @@ body {
   align-items: flex-end;
   height: 600px;
   margin-bottom: 3em;
-  /* height: fit-content; //TO BE USED
+  /* height: fit-content; //TO
   padding: 20px 0; */
 }
 .section3 {
@@ -497,7 +500,7 @@ footer a {
 .course_list2 {
   position: relative;
   /* border: 2px solid red; */
-
+  /* calc(15px + 0.390625vw) */
 }
 .unlist2 {
   /* border: 2px solid red; */
