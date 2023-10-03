@@ -24,6 +24,16 @@ fetch("../header.html")
     courseList2.addEventListener("click", () => {
       headerList.classList.toggle("block");
     });
+
+    // JavaScript to handle touch events for mobile
+    // document
+    //   .querySelector(".tooltip")
+    //   .addEventListener("touchstart", function (e) {
+    //     e.preventDefault(); // Prevent default touch event behavior
+    //     var tooltip = this.querySelector(".tooltiptext");
+    //     tooltip.style.visibility =
+    //       tooltip.style.visibility === "visible" ? "hidden" : "visible";
+    //   });
   });
 
   // header.js file
