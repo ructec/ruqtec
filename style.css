@@ -282,10 +282,9 @@ body {
 .section3_head,
 .section4_head {
   background-color: #fff;
-  height: 70px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 .section3_head_text,
 .section4_head_text {
@@ -317,13 +316,11 @@ body {
 }
 .test_img {
   position: relative;
-  width: 10em;
-  height: 10em;
+  width: 160px;
+  height: 160px;
   margin: auto;
   /* border: 2px solid red; */
   bottom: -4em;
-  /* margin-bottom: 1em; */
-
   border-radius: 50%;
 }
 .section3_wrapper {
@@ -334,8 +331,6 @@ body {
   align-items: flex-end;
   height: fit-content;
   margin-bottom: 3em;
-  /* height: fit-content; 
-  padding: 20px 0; */
 }
 .section3 {
   /* border: 2px solid green; */
@@ -346,7 +341,7 @@ body {
   column-gap: 0.8rem;
   align-items: flex-end;
   flex-wrap: wrap;
-  /* padding: 0 10em; */
+  padding-bottom: 2rem;
 }
 .test_card_wrapper {
   width: 86%;
@@ -512,7 +507,6 @@ footer a {
 .course_list2 {
   position: relative;
   /* border: 2px solid red; */
-  /* calc(15px + 0.390625vw) */
 }
 .unlist2 {
   /* border: 2px solid red; */
@@ -627,16 +621,7 @@ footer a {
   }
 }
 
-@media screen and (max-width: 1196px) {
-  .section3_wrapper {
-    height: 1100px;
-  }
-  .section3 {
-    height: 90%;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 20px;
-  }
+@media screen and (max-width: 1200px) {
   .section1 {
     width: 90%;
   }
@@ -684,6 +669,10 @@ footer a {
   .logos_container {
     margin: 5px;
   }
+
+  .testimonial_card_cont{
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 766px) {
@@ -700,28 +689,17 @@ footer a {
   .newsletter_section_text {
     font-size: 20px;
   }
+  .top_btn {
+    border: 2px solid yellow;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+  }
 }
 
 @media screen and (max-width: 630px) {
   .section3_head_text {
     font-size: 27px;
-  }
-}
-
-@media screen and (max-width: 612px) {
-  .section3_wrapper {
-    height: 2000px;
-    align-items: flex-end;
-  }
-  .section3 {
-    height: 93%;
-    margin-bottom: 40px;
-  }
-  .testimonial_card_cont {
-    width: 90%;
-  }
-  .test_card {
-    height: 320px;
   }
 }
 
@@ -749,35 +727,18 @@ footer a {
   }
 }
 
-@media screen and (max-width: 450px) {
-  .test_card {
-    height: 350px;
-  }
-}
-
 @media screen and (max-width: 440px) {
   .section3_head {
     text-align: center;
     height: 90px;
     padding: 10px;
   }
-  .top_btn {
-    width: 40px;
-    height: 40px;
-    font-size: 22px;
-  }
+  
 }
 
 @media screen and (max-width: 387px) {
- 
-  .test_card {
-    height: 360px;
-  }
   .test_card_wrapper {
     margin-bottom: 23px;
-  }
-  .section4_head_text {
-    font-size: 35px;
   }
 }
 
