@@ -305,24 +305,29 @@ body {
   margin: 0 10px;
 }
 .test_card {
+  /* border: 2px solid blue; */
   background-color: #fff;
   align-items: flex-end;
   display: flex;
   justify-content: center;
   height: auto;
-  padding-top: 115px;
+  padding-top: 5rem; 
   border-radius: 16px;
   box-shadow: 0px 16px 16px 0px #0000000a;
 }
 .test_img {
+  position: relative;
   width: 10em;
   height: 10em;
-  /* /* top: -5em; */
-  /* left: 18%; */ 
+  margin: auto;
+  /* border: 2px solid red; */
+  bottom: -4em;
+  /* margin-bottom: 1em; */
+
   border-radius: 50%;
 }
 .section3_wrapper {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   background-color: #f6f6f6;
@@ -333,7 +338,7 @@ body {
   padding: 20px 0; */
 }
 .section3 {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 100%;
   display: flex;
   justify-content: center;
