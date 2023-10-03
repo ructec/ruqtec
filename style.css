@@ -723,9 +723,6 @@ footer a {
   .test_card {
     height: 320px;
   }
-  .test_img {
-    left: 32%;
-  }
 }
 
 @media screen and (max-width: 580px) {
@@ -759,9 +756,6 @@ footer a {
 }
 
 @media screen and (max-width: 440px) {
-  .test_img {
-    left: 29%;
-  }
   .section3_head {
     text-align: center;
     height: 90px;
@@ -775,9 +769,7 @@ footer a {
 }
 
 @media screen and (max-width: 387px) {
-  .test_img {
-    left: 26%;
-  }
+ 
   .test_card {
     height: 360px;
   }
@@ -798,8 +790,5 @@ footer a {
   .section2_head_text {
     font-size: 28px;
   }
-  .test_img {
-    height: 130px;
-    left: 25%;
-  }
+ 
 }
