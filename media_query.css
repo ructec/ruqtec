@@ -67,7 +67,7 @@
   .drop {
     height: fit-content;
     overflow: visible;
-    padding-bottom: px;
+    padding-bottom: 10px;
   }
 }
 
