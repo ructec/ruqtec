@@ -53,6 +53,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  row-gap: 20px;
 }
 .course1_wrapper {
   width: 90%;
