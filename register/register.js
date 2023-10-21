@@ -8,6 +8,7 @@ const regBody = document.querySelector(".reg_body");
 const regText = document.querySelector(".reg_text");
 const regHead = document.querySelector(".reg_head");
 
+
 const api = "https://ruqtec-backend.vercel.app/api/auth/register";
 form.addEventListener("submit", (e) => {
   e.preventDefault();
