@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Get in Touch with Ruqtec - Empowering EdTech Excellence" />
+  <meta name="title" content="Ruqtec - Contact Us" />
+  <meta name="author" content="Hameed Faruq & Ruqtec" />
+  <meta name="keywords" content="Ruqtec, EdTech, contact us, tech education, hands-on learning" />
+  <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Location Information for Location 1 -->
+  <meta name="geo.region" content="NG-IB" />
+  <meta name="geo.placename" content="Ibadan, Nigeria" />
+  <meta name="geo.position" content="7.3775;3.9470" />
+  <meta name="ICBM" content="7.3775, 3.9470" />
+
+  <!-- Location Information for Location 2 -->
+  <meta name="geo.region" content="NG-LA" />
+  <meta name="geo.placename" content="Lagos, Nigeria" />
+  <meta name="geo.position" content="6.5244;3.3792" />
+  <meta name="ICBM" content="6.5244, 3.3792" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/./Images/logo.png" />
+  <link rel="icon" href="/./Images/logo.png" type="image/png" sizes="192x192" />
+
+  <!-- Apple Touch Icon -->
+  <link rel="apple-touch-icon" href="/./Images/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../media_query.css" />
+  <link rel="stylesheet" href="./contact.css" />
+
+  <title>Ruqtec - Contact Us</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-707QSCTQ2K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-707QSCTQ2K");
+  </script>
+</head>
+
+<body>
+  <div id="bigMenuWrapper"></div>
+  <p>
+    Certainly, here's a general privacy policy template for your company's website. Please note that it's essential to
+    customize this template to align with your specific practices and legal requirements. You may want to consult with a
+    legal professional to ensure compliance with relevant privacy laws and regulations:
+
+    ---
+
+    Privacy Policy
+
+    Effective Date: [Insert Effective Date]
+
+    1. Introduction
+
+    Welcome to Ruqtec EdTech Institute. At Ruqtec, we value and respect your privacy. This Privacy Policy outlines how
+    we collect, use, share, and protect your personal information when you visit our website or use our services.
+
+    2. Information We Collect
+
+    2.1. Personal Information: We may collect personal information such as your name, email address, phone number, and
+    other information provided voluntarily when you contact us or sign up for our services.
+
+    2.2. Usage Information: We collect information about how you interact with our website and services, including your
+    IP address, browser type, device information, and access times.
+
+    3. How We Use Your Information
+
+    3.1. To Provide Services: We use your personal information to provide the services you request, including course
+    enrollment, customer support, and communication regarding our offerings.
+
+    3.2. To Improve Our Services: We may use aggregated, non-identifiable information for analytical and improvement
+    purposes, such as understanding user behavior and preferences.
+
+    4. How We Share Your Information
+
+    4.1. Third-Party Service Providers: We may share your personal information with trusted third-party service
+    providers who assist us in delivering our services.
+
+    4.2. Legal Requirements: We may share information as required by law or in response to a legal process, such as a
+    court order or government inquiry.
+
+    5. Your Choices
+
+    You have the right to:
+
+    5.1. Access and Update Information: You can access, update, or delete your personal information by contacting us.
+
+    5.2. Opt-Out: You can opt-out of receiving promotional communications from us by following the instructions in such
+    communications.
+
+    6. Security
+
+    We take reasonable measures to protect your personal information. However, no data transmission or storage can be
+    guaranteed to be 100% secure. We encourage you to take steps to help protect your information.
+
+    7. Changes to this Privacy Policy
+
+    We may update this Privacy Policy from time to time to reflect changes in our practices or for legal reasons. We
+    will post any revised policy on our website.
+
+    8. Contact Us
+
+    If you have any questions or concerns about this Privacy Policy or your personal information, please contact us at:
+
+    [Your Contact Information]
+
+    ---
+
+    Please ensure that you thoroughly review and adapt this template to reflect your specific data practices and legal
+    requirements. Consulting with legal counsel is advisable to make sure your privacy policy complies with relevant
+    regulations.
+  </p>
+  <footer></footer>
+  <script>
+    fetch("../footer.html")
+      .then((response) => response.text())
+      .then((content) => {
+        document.querySelector("footer").innerHTML = content;
+        const footerSelect = document.querySelector(".footer_select");
+        const footerList = document.querySelector(".footer_list");
+        footerSelect.addEventListener("click", () => {
+          footerList.classList.toggle("block");
+        });
+      });
+  </script>
+  <script src="../header.js"></script>
+  <script src="./contact.js"></script>
+</body>
+
+</html>
